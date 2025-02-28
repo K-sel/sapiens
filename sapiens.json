@@ -1,0 +1,126 @@
+{
+    "Visuel 1": {
+      "Titre": "L'évolution du genre Homo sur 2,5 millions d'années",
+      "Données": {
+        "Homo rudolfensis": {
+          "Période": "Il y'a 2,5 millions d'années",
+          "Description": "Premiers traits du genre Homo, ayant probablement cohabité avec Australopithecus"
+        },
+        "Homo ergaster": {
+          "Période": "Il y'a 2 millions d'années",
+          "Description": "Surnommé 'homme travailleur', premier fabricant d'outils avancés et pionnier dans la migration hors d'Afrique"
+        },
+        "Homo erectus": {
+          "Période": "Il y'a 2 millions d'années",
+          "Description": "Record de longévité du genre Homo avec une présence de près de 2 millions d'années en Asie orientale"
+        }, 
+        "Homo soloensis et floresiensis": {
+          "Période": "Il y'a 800'000 ans",
+          "Description": "Espèces insulaires d'Indonésie, avec Homo floresiensis (environ 25 kg), adapté à un environnement aux ressources limitées"
+        },
+        "Homo neanderthalensis": {
+          "Période": "Il y'a 400 000 ans",
+          "Description": "Présent en Europe et Asie occidentale"
+        },
+        "Homo denisova": {
+          "Période": "Il y'a 41'000 ans",
+          "Description": "Espèce identifiée en mars 2010 à partir d'une phalange humaine fossile datée d'environ 41 000 ans, trouvée dans la grotte de Denisova, dans les montagnes de l'Altaï en Sibérie"
+        },
+        "Homo sapiens": {
+          "Période": "Il y'a 150 000 ans",
+          "Description": "Dernière espèce du genre Homo, originaire du berceau africain et seul survivant actuel"
+        }
+      }
+    },
+    "Visuel 2": {
+      "Titre": "Les grandes révolutions humaines",
+      "Données": {
+        "Révolution cognitive": {
+          "Période": "Il y a environ 70 000 ans",
+          "Description": "Apparition de la pensée abstraite, de l'imagination ainsi que du langage complexe et de nouvelles formes de coopération"
+        },
+        "Révolution agricole": {
+          "Période": "Il y a environ 12 000 ans",
+          "Description": "Introduction de l'agriculture, marquant une transition vers la sédentarité et l'organisation en sociétés structurées"
+        },
+        "Révolution scientifique": {
+          "Période": "Il y a environ 500 ans",
+          "Description": "Transformation de la compréhension du monde, apportant des avancées technologiques et sociales profondes"
+        }
+      }
+    },
+    "Visuel 3": {
+      "Titre": "Évolution du cerveau humain",
+      "Données": {
+        "Homo habilis": {
+          "Volume": "600 cm³",
+          "Période": "2,4 millions d'années"
+        },
+        "Homo neanderthalensis": {
+          "Volume": "1600 cm³",
+          "Période": "400 000 ans",
+          "Note": "Volume record parmi les espèces humaines"
+        },
+        "Homo sapiens": {
+          "Volume": "1400 cm³",
+          "Période": "150 000 ans",
+          "Note": "Réduction du volume par restructuration des connexions neuronales et meilleure efficacité"
+        }
+      },
+      "Info supplémentaire": "Le cerveau humain consomme environ 20% de l'énergie totale du corps, bien plus que chez les autres mammifères"
+    },
+    "Visuel 4": {
+      "Titre": "La domestication du feu et ses impacts",
+      "Période": "Il y a environ 800 000 ans",
+      "Impacts": {
+        "Nutrition": "Cuisson des aliments, facilitant la digestion et augmentant l'accès aux nutriments",
+        "Protection": "Sécurité contre les prédateurs et adaptation aux climats froids, permettant des migrations plus au nord",
+        "Socialisation": "Regroupement autour du feu, stimulant les interactions sociales et l'apparition de nouvelles formes de communication"
+      }
+    },
+    "Visuel 5": {
+      "Titre": "Expansion mondiale de Homo sapiens",
+      "Données": {
+        "Afrique": {
+          "Période": "150 000 ans",
+          "Description": "Berceau de l'humanité (Érythrée, Somalie, Éthiopie)"
+        },
+        "Moyen-Orient et Asie": {
+          "Période": "60 000 ans",
+          "Description": "Première expansion hors d'Afrique"
+        },
+        "Europe": {
+          "Période": "45 000 ans",
+          "Description": "Arrivée en Europe, cohabitation avec Néandertal"
+        },
+        "Australie": {
+          "Période": "45 000 ans",
+          "Description": "Traversée maritime vers l'Australie"
+        },
+        "Amérique": {
+          "Période": "14 000 ans",
+          "Description": "Traversée du détroit de Béring gelé"
+        },
+        "Terre de Feu": {
+          "Période": "11 000 ans",
+          "Description": "Arrivée à l'extrême sud du Chili"
+        }
+      }
+    },
+    "Visuel 6": {
+      "Titre": "Théories de l'extinction des autres espèces humaines",
+      "Théories": {
+        "Théorie du métissage": "Homo sapiens aurait cohabité et croisé les autres espèces humaines (Néandertal, Denisova), laissant des traces de ces croisements dans le génome humain, surtout hors Afrique",
+        "Théorie du remplacement": "Homo sapiens, grâce à ses capacités cognitives et son organisation sociale, aurait supplanté les autres espèces, les remplaçant par une compétition accrue pour les ressources"
+      }
+    },
+    "Visuel 7": {
+      "Titre": "L'ascension de l'humain dans la chaîne alimentaire",
+      "Étapes": {
+        "Début": "Principalement charognard, se nourrissant des restes laissés par les prédateurs",
+        "Intermédiaire": "Avec la domestication du feu et la création d'outils, devient un prédateur de plus en plus efficace, capable de chasser des animaux de grande taille",
+        "Final": "Atteint le sommet de la chaîne alimentaire, devenant un 'super-prédateur' capable de chasser en groupe et d'utiliser des stratégies avancées"
+      },
+      "Conséquence": "Ascension trop rapide au sommet de la chaîne alimentaire n'a pas laissé le temps au cerveau humain de bien intégrer le fait qu'il était supérieur à toutes les espèces et donc implicitement responsable d'elles"
+    }
+  }
