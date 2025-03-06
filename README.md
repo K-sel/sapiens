@@ -20,4 +20,6 @@ Face à l'abondance d'informations contenues dans l'ouvrage, nous avons décidé
 ## 📊 Sources & Référence
 Nos données sont uniques, directement extraites du livre et soigneusement formatées en **JSON** par notre équipe. Ce format nous permettra de développer une visualisation efficace et percutante.
 
+### Type de données : Qualitatives 
+
 Consignes du projet: [GitHub COMEM-VisualDon](https://github.com/MediaComem/comem-visualdon/tree/main/projet)
