@@ -8,6 +8,8 @@ Jonathan a été profondément marqué par la lecture de *Sapiens - Une brève h
 ## 🛠️ Description
 Notre démarche consiste à créer notre propre dataset au format **JSON**. Un exemple est disponible dans le fichier [sapiens.json](https://github.com/K-sel/sapiens/blob/main/sapiens.json). 
 
+**Type de données :** Qualitatives ordinales.
+
 💻 Nous extrairons des données significatives du résumé de Jonathan - des informations simples mais essentielles pour comprendre l'histoire fascinante de notre espèce.
 
 ## 🎯 Objectif
@@ -20,6 +22,5 @@ Face à l'abondance d'informations contenues dans l'ouvrage, nous avons décidé
 ## 📊 Sources & Référence
 Nos données sont uniques, directement extraites du livre et soigneusement formatées en **JSON** par notre équipe. Ce format nous permettra de développer une visualisation efficace et percutante.
 
-### Type de données : Qualitatives 
 
 Consignes du projet: [GitHub COMEM-VisualDon](https://github.com/MediaComem/comem-visualdon/tree/main/projet)
