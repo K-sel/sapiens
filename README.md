@@ -24,6 +24,8 @@ Nos données sont uniques, directement extraites du livre et soigneusement forma
 
 **Inspiration :** 
 - [Titanic](http://www.bmdata.co.uk/titanic/)
+- Earthquakes in italy : [https://github.com/romanoe/earthquakes](https://github.com/romanoe/earthquakes)
+
 
 
 
