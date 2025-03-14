@@ -26,7 +26,10 @@ Nos données sont uniques, directement extraites du livre et soigneusement forma
 - [Titanic](http://www.bmdata.co.uk/titanic/)
 - [Earthquakes](https://github.com/romanoe/earthquakes) 
 
-
+## 📝 Wireframe
+Nous avons réalisé nos maquettes sur Figma en nous efforçant de créer des modèles haute fidélité, intégrant déjà les textes définitifs ainsi qu'un prototype fonctionnel (à l'exception de quelques fonctionnalités, comme l'effet de défilement). Voici les liens pour accéder à nos maquettes :
+- [Design](https://www.figma.com/design/GNua2UMDwqaFLkwHLyqWUi/Sapiens?node-id=0-1&t=EPvzcNLCaHQAjWaz-1)
+- [Prototype]([http://www.bmdata.co.uk/titanic/](https://www.figma.com/proto/GNua2UMDwqaFLkwHLyqWUi/Sapiens?node-id=0-1&t=EPvzcNLCaHQAjWaz-1))
 
 
 Consignes du projet: [GitHub COMEM-VisualDon](https://github.com/MediaComem/comem-visualdon/tree/main/projet)
