@@ -29,7 +29,7 @@ Nos données sont uniques, directement extraites du livre et soigneusement forma
 ## 📝 Wireframe
 Nous avons réalisé nos maquettes sur Figma en nous efforçant de créer des modèles haute fidélité, intégrant déjà les textes définitifs ainsi qu'un prototype fonctionnel (à l'exception de quelques fonctionnalités, comme l'effet de défilement). Voici les liens pour accéder à nos maquettes :
 - [Design](https://www.figma.com/design/GNua2UMDwqaFLkwHLyqWUi/Sapiens?node-id=0-1&t=EPvzcNLCaHQAjWaz-1)
-- [Prototype](https://www.figma.com/proto/GNua2UMDwqaFLkwHLyqWUi/Sapiens?node-id=0-1&t=EPvzcNLCaHQAjWaz-1)
+- [Prototype](https://www.figma.com/proto/GNua2UMDwqaFLkwHLyqWUi/Sapiens?page-id=0%3A1&node-id=1-43&viewport=-774%2C290%2C0.27&t=024w4AUYzy5GidLW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=30%3A6&show-proto-sidebar=1)
 
 
 Consignes du projet: [GitHub COMEM-VisualDon](https://github.com/MediaComem/comem-visualdon/tree/main/projet)
