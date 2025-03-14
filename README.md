@@ -6,7 +6,7 @@ Jonathan a été profondément marqué par la lecture de *Sapiens - Une brève h
 📖 Les notes sont disponibles [ici](https://bumpy-carriage-993.notion.site/Sapiens-1339b308f02d808b8779c580674519b6?pvs=4) : 
 
 ## 🛠️ Description
-Notre démarche consiste à créer notre propre dataset au format **JSON**. Un exemple est disponible dans le fichier [sapiens.json](https://github.com/K-sel/sapiens/blob/main/sapiens.json). 
+Notre démarche consiste à créer notre propre dataset au format **JSON**. Un exemple est disponible dans le fichier sapiens.json
 
 **Type de données :** Qualitatives ordinales.
 
