@@ -1,0 +1,150 @@
+{
+    "titre": "Le cercle vertueux de la confiance en l'avenir, l'avènement capitaliste",
+    "sectionPrecedente": "Le Déluge, l'expension de Homo Sapiens",
+    "prochaineSection": "Conclusion",
+    "description": "L'essor du capitalisme marque la rupture avec cette vision statique de l'économie, instaurant un cercle vertueux fondé sur une croyance révolutionnaire : l'avenir sera meilleur que le présent. Ce credo transforme le crédit en pilier central du système économique. Dans ce nouveau modèle cyclique, le prêt initial permet l'investissement, qui génère des profits, alimentant la croissance économique globale, ce qui renforce la confiance et permet d'accorder davantage de crédits. Contrairement au jeu à somme nulle d'autrefois, ce cercle vertueux assure l'expansion continue du \"gâteau économique\", où la réussite d'un acteur ne se fait plus nécessairement au détriment des autres. Cette dynamique, apparue en Europe et consolidée pendant la Révolution industrielle, a inauguré une ère de prospérité sans précédent fondée sur cette confiance collective en un avenir meilleur. De l'aube du capitalisme à nos jours, l'économie mondiale a connu une expansion phénoménale. En 1500, la production mondiale était estimée à seulement 250 millions de dollars, puis à 60 000 milliards de dollars en 2013 lors de l'écriture de \"Sapiens\", pour atteindre environ 110 000 milliards en 2024. Cette croissance vertigineuse représente une multiplication par +40 000 sur cinq siècles — témoignage saisissant de la puissance du cercle vertueux capitaliste fondé sur la confiance en l'avenir.",
+    "cercleElements": [
+      {
+        "id": "confiance-avenir",
+        "texte": "Confiance en l'avenir",
+        "position": { "x": 0.75, "y": 0.25 },
+        "ordre": 1
+      },
+      {
+        "id": "credit",
+        "texte": "Crédit",
+        "position": { "x": 0.85, "y": 0.5 },
+        "ordre": 2
+      },
+      {
+        "id": "entrepreneurs",
+        "texte": "Des entrepreneurs",
+        "position": { "x": 0.75, "y": 0.75 },
+        "ordre": 3
+      },
+      {
+        "id": "boulangeries",
+        "texte": "Nouvelles boulangeries",
+        "position": { "x": 0.5, "y": 0.75 },
+        "ordre": 4
+      },
+      {
+        "id": "gateaux",
+        "texte": "Gâteaux qui remboursent les prêts",
+        "position": { "x": 0.25, "y": 0.5 },
+        "ordre": 5
+      },
+      {
+        "id": "croissance-confiance",
+        "texte": "Croissance\n=\nConfiance en l'avenir",
+        "position": { "x": 0.5, "y": 0.5 },
+        "ordre": 6,
+        "isCenter": true
+      }
+    ],
+    "connections": [
+      {
+        "de": "confiance-avenir",
+        "vers": "credit",
+        "type": "courbe",
+        "ordre": 7
+      },
+      {
+        "de": "credit",
+        "vers": "entrepreneurs",
+        "type": "courbe",
+        "ordre": 8
+      },
+      {
+        "de": "entrepreneurs",
+        "vers": "boulangeries",
+        "type": "courbe",
+        "ordre": 9
+      },
+      {
+        "de": "boulangeries",
+        "vers": "gateaux",
+        "type": "courbe",
+        "ordre": 10
+      },
+      {
+        "de": "gateaux",
+        "vers": "confiance-avenir",
+        "type": "courbe",
+        "ordre": 11
+      }
+    ],
+    "animation": {
+      "delaiEntreElements": 200,
+      "dureeApparition": 500,
+      "typeFadeIn": "ease-in-out",
+      "debutAnimation": 1000,
+      "repetition": false,
+      "seqeunceAleatoire": false
+    },
+    "style": {
+      "couleurCercle": "#000000",
+      "couleurTexte": "#000000",
+      "epaisseurLigne": 2,
+      "police": "Garamond, serif",
+      "fondCouleur": "#FFFAEB",
+      "rayonCercle": 40
+    },
+    "interactif": {
+      "survol": true,
+      "survolEffet": "highlight",
+      "clic": true,
+      "clicAffiche": "description",
+      "reinitialiser": true,
+      "boutonReinitialiser": "Recommencer l'animation"
+    },
+    "responsive": {
+      "mobile": {
+        "rayonCercle": 30,
+        "taillePolice": 14,
+        "ajustementPositions": true
+      },
+      "tablette": {
+        "rayonCercle": 35,
+        "taillePolice": 16,
+        "ajustementPositions": true
+      },
+      "desktop": {
+        "rayonCercle": 40,
+        "taillePolice": 18,
+        "ajustementPositions": false
+      }
+    },
+    "descriptions": [
+      {
+        "element": "confiance-avenir",
+        "titre": "Confiance en l'avenir",
+        "contenu": "Le capitalisme repose fondamentalement sur la croyance que l'avenir sera meilleur que le présent. Cette vision optimiste est radicalement différente des économies traditionnelles qui étaient généralement statiques."
+      },
+      {
+        "element": "credit",
+        "titre": "Crédit",
+        "contenu": "La confiance en un avenir meilleur permet le développement du crédit. Les prêteurs acceptent de se séparer temporairement de leur argent car ils croient qu'ils seront remboursés avec des intérêts dans le futur."
+      },
+      {
+        "element": "entrepreneurs",
+        "titre": "Des entrepreneurs",
+        "contenu": "Grâce au crédit, des entrepreneurs peuvent lancer ou développer leurs activités sans posséder initialement tout le capital nécessaire."
+      },
+      {
+        "element": "boulangeries",
+        "titre": "Nouvelles boulangeries",
+        "contenu": "L'exemple de la boulangerie illustre comment le crédit permet la création de nouvelles entreprises productives qui n'auraient pas pu exister autrement."
+      },
+      {
+        "element": "gateaux",
+        "titre": "Gâteaux qui remboursent les prêts",
+        "contenu": "La production (ici symbolisée par les gâteaux) génère des profits qui permettent de rembourser les prêts initiaux avec intérêts, validant ainsi la confiance placée dans l'avenir."
+      },
+      {
+        "element": "croissance-confiance",
+        "titre": "Croissance = Confiance en l'avenir",
+        "contenu": "Au centre de ce cercle vertueux se trouve l'équation fondamentale du capitalisme : la croissance économique renforce la confiance en l'avenir, qui elle-même stimule davantage la croissance."
+      }
+    ]
+  }

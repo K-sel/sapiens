@@ -1,0 +1,181 @@
+{
+    "titre": "Les 3 grandes révolutions humaines",
+    "sectionPrecedente": "Le Déluge, l'expension de Homo Sapiens",
+    "prochaineSection": "Lorem Ipsum lelamfe aoef efmaoemfa",
+    "description": "La trajectoire de l'humanité a été façonnée par trois moments charnières qui ont redéfini notre existence et notre rapport au monde. Ces révolutions fondamentales représentent des sauts évolutifs spectaculaires dans notre histoire collective, transformant radicalement notre manière de penser, de vivre et d'interagir avec notre environnement. De la naissance de notre conscience moderne il y a 70 000 ans, en passant par la domestication de la nature il y a 12 000 ans, jusqu'à l'émergence de la méthode scientifique il y a cinq siècles, chaque révolution a créé un nouvel horizon de possibilités et a fondamentalement altéré le cours de notre destin. Comprendre ces trois grandes transformations nous permet de saisir non seulement d'où nous venons, mais aussi les forces profondes qui continuent de façonner notre présent et notre futur.",
+    "timeline": [
+      {
+        "id": "revolution-cognitive",
+        "date": "-70 000 Av. J-C",
+        "titre": "La révolution cognitive",
+        "description": "Apparition de la pensée abstraite, de l'imagination ainsi que du langage complexe et de nouvelles formes de coopération entre humains.",
+        "image": "cerveau.svg",
+        "position": 0
+      },
+      {
+        "id": "revolution-agricole",
+        "date": "-12 000 Av. J-C",
+        "titre": "La révolution agricole",
+        "description": "Introduction de l'agriculture, marquant une transition vers la sédentarité et l'organisation en sociétés structurées.",
+        "image": "ble.svg",
+        "position": 1
+      },
+      {
+        "id": "revolution-scientifique",
+        "date": "1500 - 1600",
+        "titre": "La révolution scientifique",
+        "description": "Transformation de la compréhension du monde, apportant des avancées technologiques et sociales profondes.",
+        "image": "main.svg",
+        "position": 2
+      }
+    ],
+    "sections": [
+      {
+        "id": "revolution-cognitive",
+        "titre": "Les avantages de la révolution cognitive",
+        "introduction": "L'émergence des facultés mentales supérieures telles que l'imagination a catapulté l'être humain à la tête du règne animal, sa nouvelle aptitude à conceptualiser l'abstrait lui conférant une suprématie quasi mystique sur l'ensemble du monde vivant.",
+        "image": "cerveau.svg",
+        "points": [
+          {
+            "titre": "Nouvelles facultés acquises",
+            "elements": [
+              {
+                "titre": "Faculté de transmettre des quantités importantes d'information sur le monde entourant l'homo sapiens",
+                "description": ""
+              },
+              {
+                "titre": "Faculté de transmettre de grandes quantités d'information sur les relations sociales des sapiens",
+                "description": ""
+              },
+              {
+                "titre": "Préparation et exécution d'actions complexes par exemple pour éviter les lions et chasser des gros gibiers (Mammouth, Bisons etc...)",
+                "description": ""
+              }
+            ]
+          },
+          {
+            "titre": "Conséquences plus larges",
+            "elements": [
+              {
+                "titre": "Préparation et exécution d'actions complexes par exemple pour éviter les lions et chasser des gros gibiers (Mammouth, Bisons etc...)",
+                "description": ""
+              },
+              {
+                "titre": "Groupes plus grands pouvant aller jusqu'à environ 150 individus",
+                "description": ""
+              },
+              {
+                "titre": "Coopérations entre de très grands nombres d'individus & Innovation rapide en matière de comportement social",
+                "description": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "revolution-agricole",
+        "titre": "Le revers de la révolution agricole",
+        "introduction": "Il y a environ 12 000 ans (vers 10 000 avant notre ère), les chasseurs-cueilleurs commencent à adopter l'agriculture, un changement fondamental dans l'histoire de Homo sapiens. Ce passage de la cueillette et de la chasse à la culture des plantes et à l'élevage des animaux est connu sous le nom de Révolution agricole. Contrairement aux attentes, cette transformation ne rend pas la vie plus facile ni plus saine. Elle s'avéra potentiellement être la plus grande erreur de sapiens...",
+        "image": "ble.svg",
+        "points": [
+          {
+            "titre": "Sédentarité et début des inégalités sociales",
+            "elements": [
+              {
+                "titre": "Accumulation des richesses",
+                "description": "La sédentarité permet aux humains d'accumuler des biens et des ressources. Les surplus de récolte entraînent des inégalités : certains accumulent des richesses tandis que d'autres dépendent de leurs ressources."
+              },
+              {
+                "titre": "Naissance des élites",
+                "description": "Pour gérer les surplus, des structures de pouvoir émergent. Des classes de chefs, de prêtres, et de guerriers se forment, consolidant une hiérarchie sociale."
+              },
+              {
+                "titre": "Contrôle de la terre et de la population",
+                "description": "Avec les sociétés agricoles, les terres deviennent un bien précieux, nécessitant protection et administration. Cette dynamique conduit à l'appropriation et au contrôle des terres et, par conséquent, des individus qui les cultivent."
+              }
+            ]
+          },
+          {
+            "titre": "L'illusion du progrès",
+            "elements": [
+              {
+                "titre": "Travail intense",
+                "description": "Comparés aux chasseurs-cueilleurs, les paysans consacrent beaucoup plus de temps à leur subsistance. Ils travaillent de longues heures pour cultiver, planter, et récolter les céréales, rendant la vie plus laborieuse."
+              },
+              {
+                "titre": "Santé dégradée",
+                "description": "La révolution agricole marque aussi une dégradation de la santé humaine. En raison de leur alimentation principalement centrée sur les céréales, les premiers agriculteurs souffrent de malnutrition, de carences, et de maladies liées à la sédentarité."
+              },
+              {
+                "titre": "Dépendance aux récoltes",
+                "description": "Contrairement aux chasseurs-cueilleurs, les agriculteurs deviennent dépendants de leurs champs. Les mauvaises récoltes dues aux intempéries ou aux parasites provoquent des famines, plongeant des communautés entières dans des crises alimentaires."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "revolution-scientifique",
+        "titre": "La découverte de l'ignorance, la révolution scientifique",
+        "introduction": "La dernière révolution jeta les bases de la croissance exponentielle de sapiens. Aux alentours de 1500, les européens amorcèrent un changement de perception de l'humain et du monde environnent ouvrant la voie à des grandes découvertes...",
+        "image": "main.svg",
+        "points": [
+          {
+            "titre": "Les trois piliers de la science moderne",
+            "elements": [
+              {
+                "titre": "1. L'empressement à s'avouer ignorant",
+                "description": "• Accepter que tout ce que nous croyons vrai peut s'avérer faux. \n• Les croyances scientifiques sont dynamiques et non figées, contrairement aux dogmes religieux."
+              },
+              {
+                "titre": "2. La place centrale de l'observation et des mathématiques",
+                "description": "• La science moderne s'appuie sur des observations précises, validées par des outils mathématiques. \n• Auparavant, les croyances reposaient souvent sur des interprétations religieuses subjectives."
+              },
+              {
+                "titre": "3. L'acquisition de nouveaux pouvoirs",
+                "description": "• La science moderne ne se contente pas de formuler des théories, elle s'en sert pour créer des technologies nouvelles. \n• Ces découvertes augmentent directement les pouvoirs humains, qu'ils soient médicaux, militaires ou économiques."
+              }
+            ]
+          },
+          {
+            "titre": "Une expansion sans précédent de l'humanité",
+            "elements": [
+              {
+                "titre": "Population",
+                "description": "En 1500, il y avait 500 millions d'homo sapiens. Aujourd'hui, nous sommes 8 milliards."
+              },
+              {
+                "titre": "Économie",
+                "description": "En 1500, la valeur totale des biens et services était estimée à 250 millions de dollars américains. Aujourd'hui, une année de production est estimée à 60 billions de dollars américains."
+              },
+              {
+                "titre": "Consommation énergétique",
+                "description": "En 1500, l'humanité consommait 13 billions de calories par jour. Aujourd'hui, cette consommation atteint 1500 billions."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "animations": {
+      "scrollType": "vertical-timeline",
+      "transitionDuration": 0.8,
+      "pointHighlightEffect": "pulse",
+      "textAppearEffect": "fade-in"
+    },
+    "interaction": {
+      "pointClickable": true,
+      "imageClickable": true,
+      "returnButtonText": "Retour à la timeline",
+      "tooltipEnabled": true
+    },
+    "style": {
+      "background": "#FFFAEB",
+      "timelineColor": "#FF0000",
+      "pointColor": "#FF0000",
+      "textColor": "#333333",
+      "headerFont": "Garamond, serif",
+      "bodyFont": "Garamond, serif",
+      "lineWidth": 2
+    }
+  }

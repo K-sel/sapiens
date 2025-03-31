@@ -1,0 +1,196 @@
+{
+    "titre": "Le Déluge, l'expension de Homo Sapiens",
+    "sectionPrecedente": "Taille et poids du cerveau",
+    "prochaineSection": "Les 3 grandes révolutions humaines",
+    "description": "La grande odyssée migratoire d'Homo sapiens représente l'une des plus extraordinaires conquêtes géographiques de l'histoire naturelle. Partie d'Afrique il y a environ 70 000 ans, notre espèce a progressivement colonisé l'ensemble des continents habitables en suivant une expansion stratégique et opportuniste. D'abord vers le Moyen-Orient et l'Asie il y a 60 000 ans, puis vers l'Europe et l'Australie il y a 45 000 ans, ces premiers voyageurs ont traversé déserts, montagnes et bras de mer avec une remarquable adaptabilité. L'ultime frontière, les Amériques, fut franchie il y a environ 14 000 ans quand de petits groupes traversèrent le détroit de Béring alors gelé, pour finalement atteindre l'extrême sud du Chili il y a 11 000 ans. Cette expansion planétaire s'est accompagnée d'une empreinte écologique sans précédent, marquée par des vagues d'extinctions massives de la mégafaune locale sur chaque nouveau territoire, témoignant de l'impact transformateur de notre espèce sur les écosystèmes dès ses premières migrations et préfigurant notre influence dominante sur la biosphère terrestre.",
+    "migrations": [
+      {
+        "id": "afrique",
+        "nom": "Afrique",
+        "periode": "70 000 ans",
+        "description": "Berceau de l'humanité (Érythrée, Somalie, Éthiopie)",
+        "coordonnees": {
+          "latitude": 9.145,
+          "longitude": 40.489
+        },
+        "etape": 1
+      },
+      {
+        "id": "moyen-orient-asie",
+        "nom": "Moyen-Orient et Asie",
+        "periode": "60 000 ans",
+        "description": "Première expansion hors d'Afrique",
+        "coordonnees": {
+          "latitude": 33.854,
+          "longitude": 45.079
+        },
+        "etape": 2
+      },
+      {
+        "id": "asie-est",
+        "nom": "Asie de l'Est",
+        "periode": "50 000 ans",
+        "description": "Expansion vers l'Asie orientale",
+        "coordonnees": {
+          "latitude": 35.861,
+          "longitude": 104.195
+        },
+        "etape": 2
+      },
+      {
+        "id": "europe",
+        "nom": "Europe",
+        "periode": "45 000 ans",
+        "description": "Arrivée en Europe, cohabitation avec Néandertal",
+        "coordonnees": {
+          "latitude": 46.227,
+          "longitude": 2.213
+        },
+        "etape": 3
+      },
+      {
+        "id": "australie",
+        "nom": "Australie",
+        "periode": "45 000 ans",
+        "description": "Traversée maritime vers l'Australie",
+        "coordonnees": {
+          "latitude": -25.274,
+          "longitude": 133.775
+        },
+        "etape": 3
+      },
+      {
+        "id": "amerique",
+        "nom": "Amérique",
+        "periode": "14 000 ans",
+        "description": "Traversée du détroit de Béring gelé",
+        "coordonnees": {
+          "latitude": 64.801,
+          "longitude": -171.091
+        },
+        "etape": 4
+      },
+      {
+        "id": "terre-de-feu",
+        "nom": "Terre de Feu",
+        "periode": "11 000 ans",
+        "description": "Arrivée à l'extrême sud du Chili",
+        "coordonnees": {
+          "latitude": -54.801,
+          "longitude": -68.303
+        },
+        "etape": 5
+      }
+    ],
+    "trajets": [
+      {
+        "id": "afrique-moyen-orient",
+        "depart": "afrique",
+        "arrivee": "moyen-orient-asie",
+        "pointsIntermedaires": [
+          {"lat": 15.322, "lng": 39.666},
+          {"lat": 23.885, "lng": 45.079}
+        ]
+      },
+      {
+        "id": "moyen-orient-europe",
+        "depart": "moyen-orient-asie",
+        "arrivee": "europe",
+        "pointsIntermedaires": [
+          {"lat": 37.964, "lng": 29.061},
+          {"lat": 40.189, "lng": 18.166}
+        ]
+      },
+      {
+        "id": "moyen-orient-asie-est",
+        "depart": "moyen-orient-asie",
+        "arrivee": "asie-est",
+        "pointsIntermedaires": [
+          {"lat": 30.132, "lng": 70.744},
+          {"lat": 27.514, "lng": 90.433}
+        ]
+      },
+      {
+        "id": "asie-est-australie",
+        "depart": "asie-est",
+        "arrivee": "australie",
+        "pointsIntermedaires": [
+          {"lat": 12.879, "lng": 121.774},
+          {"lat": 0.789, "lng": 113.921},
+          {"lat": -9.189, "lng": 124.889}
+        ]
+      },
+      {
+        "id": "asie-est-amerique",
+        "depart": "asie-est",
+        "arrivee": "amerique",
+        "pointsIntermedaires": [
+          {"lat": 55.133, "lng": 142.442},
+          {"lat": 66.0, "lng": 169.0},
+          {"lat": 65.5, "lng": -168.0}
+        ]
+      },
+      {
+        "id": "amerique-nord-sud",
+        "depart": "amerique",
+        "arrivee": "terre-de-feu",
+        "pointsIntermedaires": [
+          {"lat": 43.651, "lng": -102.532},
+          {"lat": 19.432, "lng": -99.133},
+          {"lat": 4.711, "lng": -74.072},
+          {"lat": -12.046, "lng": -77.043},
+          {"lat": -33.447, "lng": -70.673}
+        ]
+      }
+    ],
+    "mapConfig": {
+      "centerPoint": [10, 20],
+      "initialZoom": 2.3,
+      "minZoom": 1,
+      "maxZoom": 5,
+      "projection": "mercator",
+      "colors": {
+        "background": "#FFFAEB",
+        "land": "#222222",
+        "borders": "#444444",
+        "routes": "#ff3333",
+        "points": "#ff3333"
+      },
+      "routeStyle": {
+        "width": 2,
+        "dashArray": "5,5",
+        "opacity": 0.8
+      }
+    },
+    "animation": {
+      "enabled": true,
+      "sequenceDelay": 500,
+      "pointDelay": 300,
+      "pathDuration": 1500,
+      "easing": "cubic-bezier(0.42, 0, 0.58, 1)"
+    },
+    "interaction": {
+      "tooltipEnabled": true,
+      "tooltipOffset": {
+        "x": 15,
+        "y": -30
+      },
+      "hoverEffect": {
+        "pointScale": 1.5,
+        "pathWidth": 3
+      },
+      "clickBehavior": "showInfo"
+    },
+    "responsive": {
+      "breakpoints": {
+        "mobile": 576,
+        "tablet": 768,
+        "desktop": 992
+      },
+      "mobileAdjustments": {
+        "pointSize": 4,
+        "pathWidth": 1.5,
+        "zoomLevel": 1.8
+      }
+    }
+  }

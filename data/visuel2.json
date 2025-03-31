@@ -1,0 +1,36 @@
+{
+    "titre": "Taille et poids du cerveau",
+    "sectionPrecedente": "Le genre Homo : une évolution de 2,5 millions d'années",
+    "prochaineSection": "Le Déluge, l'expension de Homo Sapiens",
+    "description": "L'évolution du cerveau humain montre une augmentation remarquable de son volume, passant de 600 cm³ chez Homo habilis il y a 2,4 millions d'années à 1 400 cm³ chez Homo sapiens. Il est intéressant de noter que les Néandertaliens possédaient un cerveau encore plus volumineux, atteignant un record de 1 600 cm³. Cependant, ce n'est pas le volume qui détermine l'intelligence, mais plutôt la qualité et la complexité des connexions neuronales. La réduction du volume cérébral chez Homo sapiens par rapport aux Néandertaliens s'explique par une restructuration plus efficace du \"câblage\" neuronal, conduisant paradoxalement à des capacités cognitives supérieures. Cette optimisation des connexions a permis à notre espèce de développer une intelligence plus sophistiquée malgré un volume moindre. Notre cerveau, bien qu'il ne représente qu'une petite partie de notre masse corporelle, consomme environ 20 % de l'énergie totale du corps, une proportion considérablement plus élevée que chez les autres mammifères, témoignant de sa complexité fonctionnelle exceptionnelle.",
+    "cerveaux": [
+      {
+        "id": "homo-habilis",
+        "espece": "Homo habilis",
+        "volume": 600,
+        "uniteVolume": "cm³",
+        "periode": "2,4 millions d'années"
+      },
+      {
+        "id": "homo-sapiens",
+        "espece": "Homo sapiens",
+        "volume": 1400,
+        "uniteVolume": "cm³",
+        "periode": "150 000 ans - Actuel"
+      },
+      {
+        "id": "homo-neanderthalensis",
+        "espece": "Homo neanderthalensis",
+        "volume": 1600,
+        "uniteVolume": "cm³",
+        "periode": "400 000 ans"
+      }
+    ],
+    "proportions": {
+      "ratio": {
+        "habilis_sapiens": 0.428571,
+        "habilis_neanderthalensis": 0.375,
+        "sapiens_neanderthalensis": 0.875
+      }
+    }
+  }

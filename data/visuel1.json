@@ -1,0 +1,64 @@
+{
+    "titre": "Le genre Homo : une évolution de 2,5 millions d'années",
+    "prochaineSection": "Taille et poids du cerveau",
+    "description": "L'aventure du genre Homo représente une fascinante odyssée évolutive s'étendant sur plus de deux millions d'années, marquée par une diversification remarquable et des adaptations ingénieuses face aux défis environnementaux. De l'émergence des premiers hominidés aux caractéristiques distinctives du genre Homo jusqu'à notre espèce actuelle, cette histoire est celle d'une mosaïque d'espèces ayant coexisté, migré et évolué à travers différents continents. Chaque espèce, des premiers Homo rudolfensis aux Néandertaliens en passant par l'incroyablement persistant Homo erectus, a apporté ses innovations biologiques et comportementales, témoignant d'une incroyable plasticité adaptive. Cette diversité d'hominines, parfois contemporains et interagissant entre eux, nous rappelle que l'émergence d'Homo sapiens comme seule espèce humaine survivante est un phénomène récent et exceptionnel dans notre histoire évolutive.",
+    "timeline": [
+      {
+        "date": "2,5 millions d'années",
+        "position": 0
+      },
+      {
+        "date": "2 millions d'années",
+        "position": 0.3
+      },
+      {
+        "date": "800 000 Av. J-C",
+        "position": 0.6
+      },
+      {
+        "date": "400 000 Av. J-C",
+        "position": 0.8
+      },
+      {
+        "date": "150 000 Av. J-C",
+        "position": 1
+      }
+    ],
+    "especes": [
+      {
+        "id": "homo-rudolfensis",
+        "nom": "Homo rudolfensis",
+        "position": 1,
+        "periode": "2,5 millions d'années",
+        "description": "Premiers traits du genre Homo, ayant probablement cohabité avec Australopithecus."
+      },
+      {
+        "id": "homo-erectus",
+        "nom": "Homo erectus",
+        "position": 2,
+        "periode": "2 millions d'années",
+        "description": "Record de longévité du genre Homo avec une présence de près de 2 millions d'années en Asie orientale. Donnera à l'humanité la maîtrise du feu."
+      },
+      {
+        "id": "homo-soloensis-floresiensis",
+        "nom": "Homo soloensis et floresiensis",
+        "position": 3,
+        "periode": "800 000 Av. J-C",
+        "description": "Espèces insulaires d'Indonésie, avec Homo floresiensis (environ 25 kg), adapté à un environnement aux ressources limitées"
+      },
+      {
+        "id": "homo-neanderthalensis",
+        "nom": "Homo neanderthalensis",
+        "position": 4,
+        "periode": "400 000 Av. J-C",
+        "description": "Présent en Europe et Asie occidentale, il est l'humain ayant eu le cerveau le plus gros de l'histoire avec 1 600 cm³"
+      },
+      {
+        "id": "homo-sapiens",
+        "nom": "Homo sapiens",
+        "position": 5,
+        "periode": "150 000 Av. J-C",
+        "description": "Dernière espèce du genre Homo, originaire du berceau africain et seul survivant actuel. Être vivant le plus développé de tous les temps."
+      }
+    ]
+  }

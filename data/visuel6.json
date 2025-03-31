@@ -1,0 +1,141 @@
+{
+    "titre": "Un jeu à somme fixe, une économie figée",
+    "sectionPrecedente": "Les 3 grandes révolutions humaines",
+    "prochaineSection": "Le cercle vertueux de la confiance en l'avenir, l'avènement capitaliste",
+    "description": "Avant le 18e siècle et la révolution industrielle, l'économie mondiale fonctionnait comme un système clos où la richesse totale demeurait constante - un véritable \"jeu à sommes fixes\". Dans ce système, illustré par un gâteau économique de taille invariable, la prospérité d'un acteur entraînait nécessairement l'appauvrissement d'un autre. Cette vision explique pourquoi l'accumulation de richesses était perçue comme moralement condamnable, souvent associée au péché dans les enseignements religieux. Les prêts étaient considérés comme risqués, car sans croissance globale anticipée, personne ne pouvait raisonnablement espérer que l'argent prêté générerait des retours plus importants à l'avenir. Cette stagnation économique séculaire rendait le crédit pratiquement inexistant et maintenait les sociétés dans un équilibre économique relativement stable mais figé.",
+    "graphique": {
+      "titre": "économie mondiale en $",
+      "xAxis": {
+        "titre": "dates",
+        "min": 1000,
+        "max": 2025,
+        "ticks": [1500, 1800, 2025]
+      },
+      "yAxis": {
+        "titre": "",
+        "min": 0,
+        "max": 110000,
+        "labels": ["250 Millions", "110 000 Milliards"]
+      },
+      "donnees": [
+        {"date": 1000, "valeur": 150, "segment": "stagnante"},
+        {"date": 1100, "valeur": 160, "segment": "stagnante"},
+        {"date": 1200, "valeur": 170, "segment": "stagnante"},
+        {"date": 1300, "valeur": 200, "segment": "stagnante"},
+        {"date": 1400, "valeur": 210, "segment": "stagnante"},
+        {"date": 1500, "valeur": 240, "segment": "stagnante"},
+        {"date": 1600, "valeur": 250, "segment": "stagnante"},
+        {"date": 1700, "valeur": 300, "segment": "stagnante"},
+        {"date": 1750, "valeur": 350, "segment": "stagnante"},
+        {"date": 1800, "valeur": 500, "segment": "croissante"},
+        {"date": 1850, "valeur": 1200, "segment": "croissante"},
+        {"date": 1900, "valeur": 3000, "segment": "croissante"},
+        {"date": 1950, "valeur": 9000, "segment": "croissante"},
+        {"date": 2000, "valeur": 40000, "segment": "croissante"},
+        {"date": 2025, "valeur": 110000, "segment": "croissante"}
+      ]
+    },
+    "annotations": [
+      {
+        "id": "economie-stagnante",
+        "texte": "Économie stagnante",
+        "position": {
+          "x": 1300,
+          "y": 200
+        },
+        "alignement": "milieu-bas",
+        "fleche": {
+          "depart": {"x": 1300, "y": 200},
+          "arrivee": {"x": 1350, "y": 250}
+        }
+      },
+      {
+        "id": "revolution-industrielle",
+        "texte": "Révolution industrielle & Démocratisation du crédit",
+        "position": {
+          "x": 1800,
+          "y": 1000
+        },
+        "alignement": "droite-milieu",
+        "fleche": {
+          "depart": {"x": 1800, "y": 1000},
+          "arrivee": {"x": 1800, "y": 500}
+        }
+      },
+      {
+        "id": "economie-croissante",
+        "texte": "Économie croissante",
+        "position": {
+          "x": 1950,
+          "y": 30000
+        },
+        "alignement": "droite-milieu",
+        "fleche": {
+          "depart": {"x": 1950, "y": 30000},
+          "arrivee": {"x": 1900, "y": 20000}
+        }
+      }
+    ],
+    "elements": [
+      {
+        "id": "ligne-verticale",
+        "type": "ligne",
+        "debut": {"x": 1800, "y": 0},
+        "fin": {"x": 1800, "y": 110000},
+        "style": {
+          "stroke": "#FF0000",
+          "strokeWidth": 2,
+          "strokeDasharray": "5,5"
+        }
+      },
+      {
+        "id": "cercle-transition",
+        "type": "cercle",
+        "centre": {"x": 1800, "y": 500},
+        "rayon": 70,
+        "style": {
+          "stroke": "#FF0000",
+          "strokeWidth": 3,
+          "fill": "none"
+        }
+      }
+    ],
+    "animation": {
+      "debut": {
+        "xAxis": {
+          "duree": 1000,
+          "delai": 0
+        },
+        "yAxis": {
+          "duree": 1000,
+          "delai": 500
+        }
+      },
+      "courbe": {
+        "dureeParSegment": 2000,
+        "delaiInitial": 1000,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "annotations": {
+        "duree": 1000,
+        "delaiEntre": 500,
+        "delaiInitial": 3000
+      },
+      "elements": {
+        "duree": 1000,
+        "delaiInitial": 5000,
+        "delaiEntre": 1000
+      }
+    },
+    "style": {
+      "courbeCouleurs": {
+        "stagnante": "#666666",
+        "croissante": "#000000"
+      },
+      "arrierePlan": "#FFFAEB",
+      "axesCouleur": "#000000",
+      "textesCouleur": "#333333",
+      "annotationsCouleur": "#333333",
+      "fontFamily": "Garamond, serif"
+    }
+  }

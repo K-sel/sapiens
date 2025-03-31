@@ -1,0 +1,18 @@
+{
+    "titre": "Aux portes d'une nouvelle révolution ?",
+    "sectionPrecedente": "Le cercle vertueux de la confiance en l'avenir, l'avènement capitaliste",
+    "prochaineSection": "Fin",
+    "description": {
+      "paragraphe1": "Notre parcours, de primate ordinaire à force dominante planétaire, s'est construit sur notre capacité unique à créer et à croire collectivement en des fictions partagées. À travers trois révolutions majeures - cognitive, agricole et scientifique - nous avons atteint une puissance sans précédent. Pourtant, notre succès évolutif n'a pas garanti notre bonheur.",
+      "paragraphe2": "Aujourd'hui, à l'aube d'une potentielle quatrième révolution technologique, une question cruciale se pose : notre sagesse s'est-elle évoluée aussi vite que notre technologie?",
+      "paragraphe3": "L'histoire de Sapiens nous révèle que notre destin n'est pas prédéterminé mais façonné par les récits auxquels nous adhérons collectivement. Cette prise de conscience nous offre le pouvoir et la responsabilité d'imaginer de nouveaux récits pour notre avenir - des récits qui réconcilieraient enfin notre ingéniosité avec un véritable épanouissement collectif et un respect de la nature.",
+      "question": "Quelle sera la prochaine histoire que nous choisirons de raconter et de vivre ensemble ?"
+    },
+    "livre": {
+      "image": "book.jpg",
+      "titre": "Sapiens",
+      "sousTitre": "Une brève histoire de l'humanité",
+      "auteur": "Yuval Noah Harari",
+      "editeur": "Albin Michel"
+    }
+  }
