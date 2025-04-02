@@ -1,0 +1,54 @@
+@import 'animation';
+
+/* CSS Section Cerveau ------------------------------------------------------------- */
+#cerveau-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#cerveau-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-between;
+}
+
+#cerveau-svg-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 2rem;
+}
+
+#cerveau-svg-container img {
+  max-height: 300px;
+  object-fit: contain;
+  width: auto;
+}
+
+#cerveau1 {
+  height: 160px;
+}
+
+#cerveau2 {
+  height: 210px;
+}
+
+#cerveau3 {
+  height: 240px;
+}
+
+#cerveau_click_arrow {
+  position: absolute;
+  left: 38%;
+  top: 233%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}

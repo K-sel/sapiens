@@ -1,0 +1,40 @@
+@import 'animation';
+
+/* CSS Header (Title) --------------------------------------------------------- */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+  
+  .title-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .arrow {
+    width: 30px;
+    margin-bottom: 30px;
+    animation: bounce 2s infinite; /* Animation de rebond ajoutée */
+  }

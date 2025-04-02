@@ -1,0 +1,68 @@
+@import 'animation';
+
+/* CSS Section Homo ------------------------------------------------------------- */
+#homo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#homo-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-between;
+}
+
+#homo-svg-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 2rem;
+}
+
+#homo-svg-container img {
+  max-height: 300px;
+  object-fit: contain;
+  width: auto;
+}
+
+#homo-graph {
+  width: 100%;
+  margin-top: 1rem;
+  height: auto;
+}
+
+#homo1 {
+  height: 160px;
+}
+
+#homo2 {
+  height: 210px;
+}
+
+#homo3 {
+  height: 240px;
+}
+
+#homo4 {
+  height: 270px;
+}
+
+#homo5 {
+  height: 300px;
+}
+
+#homo_click_arrow {
+  position: absolute;
+  left: 40%;
+  top: 133%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
