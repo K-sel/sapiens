@@ -8,11 +8,14 @@
       href="/src/assets/images/favicon.svg"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
+    <!-- CSS Global-->
     <link rel="stylesheet" href="/src/css/style.css" />
-    <link rel="stylesheet" href="/src/css/title-section.css">
-    <link rel="stylesheet" href="/src/css/homo-section.css" />
-    <link rel="stylesheet" href="/src/css/cerveau-section.css">
+    <!-- CSS Section-->
+
+    <link rel="stylesheet" href="/src/css/sections/title-section.css" />
+    <link rel="stylesheet" href="/src/css/sections/homo-section.css" />
+    <link rel="stylesheet" href="/src/css//sections/cerveau-section.css" />
+    <link rel="stylesheet" href="/src/css/sections/expension-section.css" />
 
     <title>Sapiens</title>
   </head>
@@ -118,7 +121,7 @@
             exceptionnelle.
           </p>
         </div>
-        <h3 class="next-section">Taille et poids du cerveau</h3>
+        <h3 class="next-section">Le Déluge, l’expension de Homo Sapiens</h3>
       </div>
       <div id="cerveau-illustration">
         <div id="cerveau-svg-container">
@@ -127,6 +130,50 @@
           <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau3" />
         </div>
         <!-- Ajouter texte après click + CSS -->
+      </div>
+    </section>
+    <!-- Quatrième section expension -->
+    <section id="expension-section">
+      <div class="text">
+        <div class="section-description">
+          <h3 class="previous-section">Taille et poids du cerveau</h3>
+          <h2 class="section-title">Le Déluge, l’expension de Homo Sapiens</h2>
+          <p class="section-text">
+            La grande odyssée migratoire d'Homo sapiens représente l'une des
+            plus extraordinaires conquêtes géographiques de l'histoire
+            naturelle.
+            <strong>Partie d'Afrique il y a environ 70 000 ans</strong>, notre
+            espèce a progressivement colonisé l'ensemble des continents
+            habitables en suivant une expansion stratégique et opportuniste.
+            D'abord vers
+            <strong>le Moyen-Orient et l'Asie il y a 60 000 ans</strong>, puis
+            vers <strong>l'Europe et l'Australie il y a 45 000 ans</strong>, ces
+            premiers voyageurs ont traversé déserts, montagnes et bras de mer
+            avec une remarquable adaptabilité. L'ultime frontière,
+            <strong
+              >les Amériques, fut franchie il y a environ 14 000 ans</strong
+            >
+            quand de petits groupes traversèrent le détroit de Béring alors
+            gelé, pour finalement atteindre
+            <strong>l'extrême sud du Chili il y a 11 000 ans.</strong> Cette
+            expansion planétaire s'est accompagnée d'une empreinte écologique
+            sans précédent, marquée par
+            <strong class="red-text">des vagues d'extinctions massives</strong>
+            de la mégafaune locale sur chaque nouveau territoire, témoignant de
+            l'impact transformateur de notre espèce sur les écosystèmes dès ses
+            premières migrations et préfigurant notre influence dominante sur la
+            biosphère terrestre.
+          </p>
+        </div>
+        <h3 class="next-section">Les 3 grandes révolutions humaines</h3>
+      </div>
+      <div id="expension-illustration">
+        <img
+          alt="maps d'illustration de l'expension"
+          src="/src/assets/images/map.png"
+          id="expension-map"
+        />
+        <!-- Ajouter maps interactive D3.js-->
       </div>
     </section>
 
