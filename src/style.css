@@ -154,4 +154,11 @@ h1 {
   height: 300px;
 }
 
+#homo_click_arrow {
+  position: absolute;
+  left: 40%;
+  top: 133%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
+
 /* CSS Section Cerveau ------------------------------------------------------------- */
