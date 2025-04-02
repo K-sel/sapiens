@@ -1,0 +1,19 @@
+/* CSS Section expension ------------------------------------------------------------- */
+#expension-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#expension-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-between;
+}
