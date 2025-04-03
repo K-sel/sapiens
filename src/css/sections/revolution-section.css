@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem;;
     gap: 5vw;
     max-width: 1400px;
     margin: 0 auto;
@@ -19,14 +19,16 @@
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+
 }
 
 #revolution-svg-container {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    padding-bottom: 2rem;
 }
 
 #rev-left,
