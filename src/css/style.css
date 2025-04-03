@@ -1,3 +1,5 @@
+/* Normalize CSS */
+@import url("../../node_modules/normalize.css/normalize.css");
 /* Global CSS  ---------------------------------------------------------------- */
 body {
   background-color: #fffbec;

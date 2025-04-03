@@ -1,0 +1,145 @@
+@import "../animation.css";
+
+/* CSS Section Revolution ------------------------------------------------------------- */
+/* CSS pour la section révolutions */
+#revolution-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 5vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+#revolution-illustration {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#revolution-svg-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding-bottom: 2rem;
+}
+
+#rev-left,
+#rev-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;;
+  width: 80%;
+}
+
+#rev-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+
+#time-arrow {
+  height: 90%;
+  width: auto;
+}
+
+#rev-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#icon-cognitive,
+#icon-agricole,
+#icon-scientifique {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+#icon-cognitive {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#icon-scientifique {
+  margin-top: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  max-width: 250px;
+}
+
+#figcaption-cognitive,
+#figcaption-scientifique {
+  margin-bottom: 5rem;
+}
+
+#figcaption-agricole {
+  margin-bottom: 10rem;
+}
+
+
+/* Ajustements pour l'affichage des figures et textes */
+#rev-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Pour positionner correctement les éléments selon l'image */
+#revolution-svg-container strong {
+  font-weight: 600;
+  display: block;
+  margin-bottom: -1rem;
+}
+
+/* Ajout des styles pour les points sur la ligne temporelle */
+#rev-center {
+  position: relative;
+}
+
+#time-arrow {
+  position: relative;
+}
+
+/* Ajustements supplémentaires pour aligner les éléments comme sur l'image */
+#rev-left {
+  padding-top: 35%; /* Ajustez cette valeur pour aligner avec l'image de référence */
+  padding-bottom: 25%;
+}
+
+#rev-right {
+  justify-content: space-between;
+  padding-top: 5%; /* Ajustez cette valeur pour aligner avec l'image de référence */
+  padding-bottom: 2%; /* Ajustez cette valeur pour aligner avec l'image de référence */
+}
+
+/* Taille des images */
+#icon-cognitive {
+  max-width: 95px;
+  margin-top: 2rem;
+}
+
+#icon-agricole {
+  max-width: 105px;
+}
+
+#icon-scientifique {
+  max-width: 105px;
+}
