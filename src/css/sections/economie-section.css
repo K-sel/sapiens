@@ -1,0 +1,20 @@
+/* CSS Section economie ------------------------------------------------------------- */
+#economie-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 5vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 90vh;
+  }
+  
+  #economie-illustration {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+  }
+  
