@@ -145,3 +145,24 @@ figcaption {
 #icon-scientifique {
   max-width: 105px;
 }
+
+#revolution_click_arrow1 {
+  position: absolute;
+  left: 45%;
+  top: 420%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
+
+#revolution_click_arrow2 {
+  position: absolute;
+  left: 83%;
+  top: 397%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
+
+#revolution_click_arrow3 {
+  position: absolute;
+  left: 80%;
+  top: 455%;
+  animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
