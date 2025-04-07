@@ -1,0 +1,21 @@
+/* CSS Section capitalisme ------------------------------------------------------------- */
+#capitalisme-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 5vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 90vh;
+  }
+  
+  #capitalisme-illustration {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 10vw;
+    justify-content: space-between;
+  }
+  

@@ -1,6 +1,6 @@
 @import "../animation.css";
 /* CSS end  ------------------------------------------------------------- */
-footer {
+#end-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,6 +20,6 @@ footer {
   #end_click_arrow {
     position: absolute;
     left: 50%;
-    top: 597%;
+    top: 695%;
     animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
   }
