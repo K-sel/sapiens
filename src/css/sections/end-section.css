@@ -1,0 +1,25 @@
+@import "../animation.css";
+/* CSS end  ------------------------------------------------------------- */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 5vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 90vh;
+  }
+
+  #end-bookCover{
+    width: 70%;
+    padding-right: 5vw;
+  }
+  
+  #end_click_arrow {
+    position: absolute;
+    left: 50%;
+    top: 597%;
+    animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+  }
