@@ -12,6 +12,9 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "d3-selection": "^3.0.0",
+    "intersection-observer": "^0.12.2",
+    "normalize.css": "^8.0.1",
+    "scrollama": "^3.2.0"
   }
 }

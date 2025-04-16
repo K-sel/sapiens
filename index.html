@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="/src/css/sections/capitalisme-section.css" />
     <link rel="stylesheet" href="/src/css/sections/end-section.css" />
     <link rel="stylesheet" href="src/css/sections/footer-section.css" />
+    <!-- Scrollama CSS -->
+    <link rel="stylesheet" href="src/css/scrollama.css">
+    <!-- Scrollama script -->
+    <script src="src/scrollama.js" defer></script>
 
     <title>Sapiens</title>
   </head>
@@ -37,382 +41,37 @@
       <img src="/src/assets/images/arrow.svg" alt="Flèche" class="arrow" />
     </header>
 
-    <!-- Deuxième section homo -->
-    <section id="homo-section">
-      <img
-        src="/src/assets/images/click_arrow_left.svg"
-        alt="Click here Arrow"
-        id="homo_click_arrow"
-      />
-      <div class="text">
-        <div class="section-description">
-          <h2 class="section-title">
-            Le genre Homo : une évolution de 2,5 millions d'années
-          </h2>
-          <p class="section-text">
-            Le genre Homo : une évolution de 2,5 millions d'années L'aventure du
-            genre Homo représente une fascinante odyssée évolutive s'étendant
-            sur plus de deux millions d'années, marquée par une diversification
-            remarquable et des adaptations ingénieuses face aux défis
-            environnementaux. De l'émergence des premiers hominidés aux
-            caractéristiques distinctives du genre Homo jusqu'à notre espèce
-            actuelle, cette histoire est celle d'une mosaïque d'espèces ayant
-            coexisté, migré et évolué à travers différents continents. Chaque
-            espèce, des premiers Homo rudolfensis aux Néandertaliens en passant
-            par l'incroyablement persistant Homo erectus, a apporté ses
-            innovations biologiques et comportementales, témoignant d'une
-            incroyable plasticité adaptative. Cette diversité d'hominines,
-            parfois contemporains et interagissant entre eux, nous rappelle que
-            l'émergence d'Homo sapiens comme seule espèce humaine survivante est
-            un phénomène récent et exceptionnel dans notre histoire évolutive.
-          </p>
+    <section id="scrolly">
+      <article>
+        <div class="step" data-step="1">
+          <p>STEP 1</p>
         </div>
-        <h3 class="next-section">Taille et poids du cerveau</h3>
-      </div>
-      <div id="homo-illustration">
-        <div id="homo-svg-container">
-          <img src="/src/assets/images/homo1.svg" alt="Homo" id="homo1" />
-          <img src="/src/assets/images/homo2.svg" alt="Homo" id="homo2" />
-          <img src="/src/assets/images/homo3.svg" alt="Homo" id="homo3" />
-          <img src="/src/assets/images/homo4.svg" alt="Homo" id="homo4" />
-          <img src="/src/assets/images/homo5.svg" alt="Homo" id="homo5" />
+        <div class="step" data-step="2">
+          <p>STEP 2</p>
         </div>
-        <!-- Ajouter ici après click + CSS -->
-        <img
-          src="/src/assets/images/homo-graph.svg"
-          alt="Ligne temporel"
-          id="homo-graph"
-        />
-      </div>
+        <div class="step" data-step="3">
+          <p>STEP 3</p>
+        </div>
+        <div class="step" data-step="4">
+          <p>STEP 4</p>
+        </div>
+      </article>
+
+      <!--C'est là que vous allez mettre votre svg qui évolue-->
+      <figure>
+        <p>0</p>
+      </figure>
     </section>
 
-    <!-- Troisième section Cerveau -->
-    <section id="cerveau-section">
-      <img
-        src="/src/assets/images/click_arrow_left.svg"
-        alt="Click here Arrow"
-        id="cerveau_click_arrow"
-      />
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">
-            Le genre Homo : une évolution de 2,5 millions d'années
-          </h3>
-          <h2 class="section-title">Taille et poids du cerveau</h2>
-          <p class="section-text">
-            <strong
-              >L'évolution du cerveau humain montre une augmentation remarquable
-              de son volume</strong
-            >, passant de 600 cm³ chez Homo habilis il y a 2,4 millions d'années
-            à 1 400 cm³ chez Homo sapiens. Il est intéressant de noter que les
-            Néandertaliens possédaient un cerveau encore plus volumineux,
-            atteignant un record de 1 600 cm³. <br />Cependant, ce n'est pas le
-            volume qui détermine l'intelligence, mais plutôt la qualité et la
-            complexité des connexions neuronales. La réduction du volume
-            cérébral chez Homo sapiens par rapport aux Néandertaliens s'explique
-            par une
-            <strong
-              >restructuration plus efficace du "câblage" neuronal, conduisant
-              paradoxalement à des capacités cognitives supérieures.</strong
-            >
-            Cette optimisation des connexions a permis à notre espèce de
-            développer une intelligence plus sophistiquée malgré un volume
-            moindre. <br />Notre cerveau, bien qu'il ne représente qu'une petite
-            partie de notre masse corporelle,
-            <strong>consomme environ 20 % de l'énergie totale du corps</strong>,
-            une proportion considérablement plus élevée que chez les autres
-            mammifères, témoignant de sa complexité fonctionnelle
-            exceptionnelle.
-          </p>
-        </div>
-        <h3 class="next-section">Le Déluge, l’expension de Homo Sapiens</h3>
-      </div>
-      <div id="cerveau-illustration">
-        <div id="cerveau-svg-container">
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau1" />
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau2" />
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau3" />
-        </div>
-        <!-- Ajouter texte après click + CSS -->
-      </div>
-    </section>
-    <!-- Quatrième section expension -->
-    <section id="expension-section">
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">Taille et poids du cerveau</h3>
-          <h2 class="section-title">Le Déluge, l’expension de Homo Sapiens</h2>
-          <p class="section-text">
-            La grande odyssée migratoire d'Homo sapiens représente l'une des
-            plus extraordinaires conquêtes géographiques de l'histoire
-            naturelle.
-            <strong>Partie d'Afrique il y a environ 70 000 ans</strong>, notre
-            espèce a progressivement colonisé l'ensemble des continents
-            habitables en suivant une expansion stratégique et opportuniste.
-            D'abord vers
-            <strong>le Moyen-Orient et l'Asie il y a 60 000 ans</strong>, puis
-            vers <strong>l'Europe et l'Australie il y a 45 000 ans</strong>, ces
-            premiers voyageurs ont traversé déserts, montagnes et bras de mer
-            avec une remarquable adaptabilité. L'ultime frontière,
-            <strong
-              >les Amériques, fut franchie il y a environ 14 000 ans</strong
-            >
-            quand de petits groupes traversèrent le détroit de Béring alors
-            gelé, pour finalement atteindre
-            <strong>l'extrême sud du Chili il y a 11 000 ans.</strong> Cette
-            expansion planétaire s'est accompagnée d'une empreinte écologique
-            sans précédent, marquée par
-            <strong class="red-text">des vagues d'extinctions massives</strong>
-            de la mégafaune locale sur chaque nouveau territoire, témoignant de
-            l'impact transformateur de notre espèce sur les écosystèmes dès ses
-            premières migrations et préfigurant notre influence dominante sur la
-            biosphère terrestre.
-          </p>
-        </div>
-        <h3 class="next-section">Les 3 grandes révolutions humaines</h3>
-      </div>
-      <div id="expension-illustration">
-        <img
-          alt="maps d'illustration de l'expension"
-          src="/src/assets/images/map.png"
-          id="expension-map"
-        />
-        <!-- Ajouter maps interactive D3.js-->
-      </div>
-    </section>
-
-    <!-- Cinquième section Révolution -->
-    <section id="revolution-section">
-      <img
-        src="/src/assets/images/click_arrow_left.svg"
-        alt="Click here Arrow"
-        id="revolution_click_arrow1"
-      />
-      <img
-        src="/src/assets/images/click_arrow_right.svg"
-        alt="Click here Arrow"
-        id="revolution_click_arrow2"
-      />
-      <img
-        src="/src/assets/images/click_arrow_right.svg"
-        alt="Click here Arrow"
-        id="revolution_click_arrow3"
-      />
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">
-            Le Déluge, l’expension de Homo Sapiens
-          </h3>
-          <h2 class="section-title">Les 3 grandes révolutions humaines</h2>
-          <p class="section-text">
-            La trajectoire de l'humanité a été façonnée par trois moments
-            charnières qui ont redéfini notre existence et notre rapport au
-            monde. Ces révolutions fondamentales représentent des sauts
-            évolutifs spectaculaires dans notre histoire collective,
-            transformant radicalement notre manière de penser, de vivre et
-            d'interagir avec notre environnement. <br />De la naissance de notre
-            conscience moderne il y a 70 000 ans, en passant par la
-            domestication de la nature il y a 12 000 ans, jusqu'à l'émergence de
-            la méthode scientifique il y a cinq siècles, chaque révolution a
-            créé un nouvel horizon de possibilités et a fondamentalement altéré
-            le cours de notre destin. Comprendre ces trois grandes
-            transformations nous permet de saisir non seulement d'où nous
-            venons, mais aussi les forces profondes qui continuent de façonner
-            notre présent et notre futur.
-          </p>
-        </div>
-        <h3 class="next-section">Un jeu à somme fixe, une économie figée</h3>
-      </div>
-      <div id="revolution-illustration">
-        <div id="revolution-svg-container">
-          <div id="rev-left">
-            <img
-              src="/src/assets/images/ble.png"
-              alt="Révolution agricole"
-              id="icon-agricole"
-            />
-            <figcaption id="figcaption-agricole">
-              <strong>La révolution agricole</strong> <br />
-              Introduction de l’agriculture, marquant une transition vers la
-              sédentarité et l’organisation en sociétés structurées.
-            </figcaption>
-          </div>
-          <div id="rev-center">
-            <img
-              src="/src/assets/images/time_arrow_rev.svg"
-              alt="Flèche du temps"
-              id="time-arrow"
-            />
-          </div>
-          <div id="rev-right">
-            <img
-              src="/src/assets/images/cerveau2.png"
-              alt="Révolution cognitive"
-              id="icon-cognitive"
-            />
-            <figcaption id="figcaption-cognitive">
-              <strong>La révolution cognitive</strong> <br />
-              Apparition de la pensée abstraite, de l’imagination ainsi que du
-              langage complexe et de nouvelles formes de coopération entre
-              humains.
-            </figcaption>
-
-            <img
-              src="/src/assets/images/main.png"
-              alt="Révolution scientifique"
-              id="icon-scientifique"
-            />
-            <figcaption id="figcaption-scientifique">
-              <strong>La révolution scientifique </strong> <br />
-              Transformation de la compréhension du monde, apportant des
-              avancées technologiques et sociales profondes.
-            </figcaption>
-          </div>
-        </div>
-        <!-- Ajouter HTML après click + CSS -->
-      </div>
-    </section>
-
-    <!-- Sixième section Economie -->
-    <section id="economie-section">
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">Les 3 grandes révolutions humaines</h3>
-          <h2 class="section-title">Un jeu à somme fixe, une économie figée</h2>
-          <p class="section-text">
-            Avant le 18e siècle et la révolution industrielle, l'économie
-            mondiale fonctionnait comme un système clos où la richesse totale
-            demeurait constante - un véritable "jeu à sommes fixes". Dans ce
-            système, illustré par un gâteau économique de taille invariable, la
-            prospérité d'un acteur entraînait nécessairement l'appauvrissement
-            d'un autre. <br />
-            Cette vision explique pourquoi l'accumulation de richesses était
-            perçue comme moralement condamnable, souvent associée au péché dans
-            les enseignements religieux. Les prêts étaient considérés comme
-            risqués, car sans croissance globale anticipée, personne ne pouvait
-            raisonnablement espérer que l'argent prêté générerait des retours
-            plus importants à l'avenir. Cette stagnation économique séculaire
-            rendait le crédit pratiquement inexistant et maintenait les sociétés
-            dans un équilibre économique relativement stable mais figé.
-          </p>
-        </div>
-        <h3 class="next-section">
-          Le cercle vertueux de la confiance en l’avenir, l’avènement
-          capitaliste
-        </h3>
-      </div>
-      <div id="economie-illustration">
-        <!-- A MODIFIER SELON LA REPRESENTATION QU'ON VEUT METTRE
-         On avait parler de cercle avec différentes tailles avec D3.js -->
-        <img
-          alt="Graphique d'illustration de la révolution économique"
-          src="/src/assets/images/graph_economie.svg"
-          id="economie-graph"
-        />
-      </div>
-    </section>
-
-    <!-- Septième section Capitalisme -->
-    <section id="capitalisme-section">
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">
-            Un jeu à somme fixe, une économie figée
-          </h3>
-          <h2 class="section-title">
-            Le cercle vertueux de la confiance en l’avenir, l’avènement
-            capitaliste
-          </h2>
-          <p class="section-text">
-            Le capitalisme marque une révolution dans la vision économique
-            mondiale, remplaçant une économie statique par un système fondé sur
-            une croyance puissante : l'avenir sera nécessairement meilleur que
-            le présent. Cette conviction transforme le crédit en pilier central
-            du système économique moderne. <br />Dans ce cercle vertueux, le
-            prêt initial finance l'investissement et l'innovation, générant des
-            profits qui alimentent la croissance économique globale. Cette
-            croissance renforce à son tour la confiance collective, permettant
-            d'accorder davantage de crédits et perpétuant ainsi le cycle.
-            Contrairement au jeu à somme nulle d'autrefois, ce modèle assure
-            l'expansion continue du "gâteau économique", où la réussite d'un
-            acteur contribue potentiellement à la prospérité générale. <br />
-            Cette dynamique, née en Europe et consolidée pendant la Révolution
-            industrielle, a inauguré une ère de développement économique sans
-            précédent. L'impact est quantifiable : l'économie mondiale est
-            passée de seulement 250 millions de dollars en 1500 à environ 110
-            000 milliards en 2024 -
-            <strong>une multiplication par 440 000 en cinq siècles</strong>.
-            Cette croissance vertigineuse témoigne de la puissance
-            transformatrice du cercle vertueux capitaliste, entièrement fondé
-            sur cette confiance partagée en un avenir meilleur.
-          </p>
-        </div>
-        <h3 class="next-section">Conclusion</h3>
-      </div>
-      <div id="capitalisme-illustration">
-        <!-- A voir ... peutêtre modifier avec un svg ou quelque chose de mieux car la 
-         j'ai juste mis une grosse image -->
-        <img
-          alt="Cercle vertueux du capitalisme"
-          src="/src/assets/images/circle_capitalisme.svg"
-          id="capitalisme-circle"
-        />
-      </div>
-    </section>
-
-    <!-- End -->
-    <section id="end-section">
-      <img
-        src="/src/assets/images/click_arrow_left.svg"
-        alt="Click here Arrow"
-        id="end_click_arrow"
-      />
-      <div class="text">
-        <div class="section-description">
-          <h3 class="previous-section">
-            Le cercle vertueux de la confiance en l’avenir, l’avènement
-            capitaliste
-          </h3>
-          <h2 class="section-title">Aux portes d’une nouvelle révolution ?</h2>
-          <p class="section-text">
-            Notre parcours, de primate ordinaire à force dominante planétaire,
-            s'est construit sur notre capacité unique à créer et à croire
-            collectivement en des fictions partagées. À travers trois
-            révolutions majeures - cognitive, agricole et scientifique - nous
-            avons atteint une puissance sans précédent.Pourtant, notre succès
-            évolutif n'a pas garanti notre bonheur.
-            <br />Aujourd'hui, à l'aube d'une potentielle quatrième révolution
-            technologique, une question cruciale se pose : notre sagesse
-            a-t-elle évolué aussi vite que notre technologie? <br />L'histoire
-            de Sapiens nous révèle que notre destin n'est pas prédéterminé mais
-            façonné par les récits auxquels nous adhérons collectivement. Cette
-            prise de conscience nous offre le pouvoir et la responsabilité
-            d'imaginer de nouveaux récits pour notre avenir - des récits qui
-            réconcilieraient enfin notre ingéniosité avec un véritable
-            épanouissement collectif et un respect de la nature. <br />Quelle
-            sera la prochaine histoire que nous choisirons de raconter et de
-            vivre ensemble ? <br />Fin
-          </p>
-        </div>
-      </div>
-      <div id="end-illustration">
-        <a
-          href="https://www.fr.fnac.ch/a8625757/Yuval-Noah-Harari-Sapiens"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            alt="Cover du livre Sapiens"
-            src="/src/assets/images/book_cover.png"
-            id="end-bookCover"
-          />
-        </a>
-      </div>
-    </section>
+  
     <!-- Footer section -->
     <footer>
       <div class="footer-container">
-        <img src="/src/assets/images/merci.svg" alt="Sapiens" id="logo-footer" />
+        <img
+          src="/src/assets/images/merci.svg"
+          alt="Sapiens"
+          id="logo-footer"
+        />
         <h1>Réalisé par Jonathan et Daniel</h1>
       </div>
     </footer>
