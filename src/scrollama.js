@@ -1,4 +1,5 @@
-import {d3} from "d3-selection";
+import * as d3 from 'd3';
+import scrollama from 'scrollama';
 
 const scrolly = d3.select("#scrolly");
 const figure = scrolly.select("figure");

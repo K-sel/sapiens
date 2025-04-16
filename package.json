@@ -12,7 +12,7 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "d3-selection": "^3.0.0",
+    "d3": "^7.9.0",
     "intersection-observer": "^0.12.2",
     "normalize.css": "^8.0.1",
     "scrollama": "^3.2.0"
