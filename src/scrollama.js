@@ -1,5 +1,8 @@
 import * as d3 from 'd3';
 import scrollama from 'scrollama';
+import { illustrations } from './assets/illustrations';
+
+console.log(illustrations)
 
 const scrolly = d3.select("#scrolly");
 const figure = scrolly.select("figure");
@@ -35,7 +38,6 @@ function handleStepEnter(response) {
 			step.classed("is-active", function (d, i) {
 				return i === response.index;
 			});
-
 			// update graphic based on step
 			figure.select("p").text(response.index + 1);
 		}
