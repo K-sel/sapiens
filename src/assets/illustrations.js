@@ -1,5 +1,5 @@
 export const illustrations = {
-    1: `
+  1: `
       <div id="homo-illustration">
         <div id="homo-svg-container">
           <img src="/src/assets/images/homo1.svg" alt="Homo" id="homo1" />
@@ -15,7 +15,7 @@ export const illustrations = {
         />
       </div>
     `,
-    2: `
+  2: `
       <div id="cerveau-illustration">
         <div id="cerveau-svg-container">
           <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau1" />
@@ -24,7 +24,7 @@ export const illustrations = {
         </div>
       </div>
     `,
-    3: `
+  3: `
       <div id="expension-illustration">
         <img
           alt="maps d'illustration de l'expension"
@@ -33,7 +33,7 @@ export const illustrations = {
         />
       </div>
     `,
-    4: `
+  4: `
       <div id="revolution-illustration">
         <div id="revolution-svg-container">
           <div id="rev-left">
@@ -82,7 +82,7 @@ export const illustrations = {
         </div>
       </div>
     `,
-    5: `
+  5: `
       <div id="economie-illustration">
         <img
           alt="Graphique d'illustration de la révolution économique"
@@ -91,7 +91,7 @@ export const illustrations = {
         />
       </div>
     `,
-    6: `
+  6: `
       <div id="capitalisme-illustration">
         <img
           alt="Cercle vertueux du capitalisme"
@@ -100,9 +100,9 @@ export const illustrations = {
         />
       </div>
     `,
-    7: `
+  7: `
       <div id="end-illustration">
-        
+        <a
           href="https://www.fr.fnac.ch/a8625757/Yuval-Noah-Harari-Sapiens"
           target="_blank"
           rel="noopener noreferrer"
@@ -115,4 +115,4 @@ export const illustrations = {
         </a>
       </div>
     `
-  };
+};
