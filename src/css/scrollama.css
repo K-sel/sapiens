@@ -1,0 +1,22 @@
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  color: #999;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  color: #3b3b3b;
+}
