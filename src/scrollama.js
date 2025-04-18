@@ -61,6 +61,12 @@ function init() {
 function illustrationDisplay(response) {
 
 	const illustrationIds = document.querySelectorAll('[id$="-illustration"]');
+	const arrowIds = document.querySelectorAll('[id*="arrow"]');
+
+	arrowIds.forEach((element) => {
+		element.remove();
+	});
+
 	illustrationIds.forEach((element) => {
 		element.remove();
 	});
@@ -91,7 +97,6 @@ function displayText(response) {
 	// Avec d3.js
 	sectionTextD3.style('display', '');
 }
-
 
 // kick things off
 init();

@@ -1,5 +1,10 @@
 export const illustrations = {
   1: `
+        <img
+        src="/src/assets/images/click_arrow_left.svg"
+        alt="Click here Arrow"
+        id="homo_click_arrow"
+      />
       <div id="homo-illustration">
         <div id="homo-svg-container">
           <img src="/src/assets/images/homo1.svg" alt="Homo" id="homo1" />
@@ -16,6 +21,11 @@ export const illustrations = {
       </div>
     `,
   2: `
+        <img
+        src="/src/assets/images/click_arrow_left.svg"
+        alt="Click here Arrow"
+        id="cerveau_click_arrow"
+      />
       <div id="cerveau-illustration">
         <div id="cerveau-svg-container">
           <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau1" />
@@ -34,6 +44,21 @@ export const illustrations = {
       </div>
     `,
   4: `
+        <img
+        src="/src/assets/images/click_arrow_left.svg"
+        alt="Click here Arrow"
+        id="revolution_click_arrow1"
+      />
+      <img
+        src="/src/assets/images/click_arrow_right.svg"
+        alt="Click here Arrow"
+        id="revolution_click_arrow2"
+      />
+      <img
+        src="/src/assets/images/click_arrow_right.svg"
+        alt="Click here Arrow"
+        id="revolution_click_arrow3"
+      />
       <div id="revolution-illustration">
         <div id="revolution-svg-container">
           <div id="rev-left">
@@ -101,6 +126,11 @@ export const illustrations = {
       </div>
     `,
   7: `
+        <img
+        src="/src/assets/images/click_arrow_left.svg"
+        alt="Click here Arrow"
+        id="end_click_arrow"
+      />
       <div id="end-illustration">
         <a
           href="https://www.fr.fnac.ch/a8625757/Yuval-Noah-Harari-Sapiens"

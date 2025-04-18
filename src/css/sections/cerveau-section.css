@@ -49,6 +49,6 @@
 #cerveau_click_arrow {
   position: absolute;
   left: 38%;
-  top: 233%;
+  top: 19%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }

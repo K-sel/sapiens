@@ -63,6 +63,6 @@
 #homo_click_arrow {
   position: absolute;
   left: 40%;
-  top: 133%;
+  top: 4%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }
