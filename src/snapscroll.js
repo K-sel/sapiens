@@ -1,92 +1,10 @@
-// src/scrollama.js - correction pour le problème de saut de section
-import * as d3 from 'd3';
-import scrollama from 'scrollama';
-import { illustrations } from './assets/illustrations';
-import initSnapScroll from './snapscroll.js';
-
-
 // Variables globales
-const scrolly = d3.select("#scrolly");
-const article = scrolly.select("article");
-const step = article.selectAll(".step");
-const scroller = scrollama();
 let isScrolling = false;
-let lastScrollTime = 0;
 const scrollCooldown = 1000; // Temps minimum entre les défilements (en ms)
 let accumulatedDelta = 0; // Pour suivre le défilement cumulé
 const deltaThreshold = 5; // Seuil pour déclencher un changement de section
 
-// Fonction de redimensionnement
-function handleResize() {
-  const stepHeight = window.innerHeight;
-  step.style("height", stepHeight + "px");
-  scroller.resize();
-}
-
-// Gestionnaire d'entrée d'étape
-function handleStepEnter(response) {
-  console.log(response);
-  
-  // Afficher l'illustration et le texte pour cette étape
-  illustrationDisplay(response);
-  displayText(response);
-  
-  // Activer uniquement l'étape actuelle
-  step.classed("is-active", function(d, i) {
-    return i === response.index;
-  });
-}
-
-// Manipulation du défilement
-function scrollToSection(index) {
-  if (isScrolling) return;
-  
-  isScrolling = true;
-  const sections = document.querySelectorAll('.step');
-  
-  if (index >= 0 && index < sections.length) {
-    sections[index].scrollIntoView({ behavior: 'smooth' });
-  }
-  
-  setTimeout(() => {
-    isScrolling = false;
-  }, scrollCooldown);
-}
-
-// Affichage des illustrations
-function illustrationDisplay(response) {
-  const illustrationIds = document.querySelectorAll('[id$="-illustration"]');
-  const arrowIds = document.querySelectorAll('[id*="arrow"]');
-
-  arrowIds.forEach((element) => {
-    element.remove();
-  });
-
-  illustrationIds.forEach((element) => {
-    element.remove();
-  });
-  
-  response.element.insertAdjacentHTML("beforeend", illustrations[response.index + 1]);
-}
-
-// Affichage du texte
-function displayText(response) {
-  const activeText = document.querySelectorAll('.section-text');
-  activeText.forEach((element) => {
-    element.style.display = 'none';
-  });
-
-  const currentElement = response.element;
-  const sectionText = currentElement.querySelector('.section-text');
-  
-  if (sectionText) {
-    sectionText.style.display = 'block';
-  }
-  
-  d3.select(currentElement).select('.section-text').style('display', '');
-}
-
-// Gestionnaire de défilement avec détection améliorée
+// Gestionnaire de défilement amélioré
 function handleWheelEvent(e) {
   // Vérifier si nous sommes dans le footer
   const footer = document.querySelector('footer');
@@ -176,6 +94,22 @@ function handleWheelEvent(e) {
   }
 }
 
+// Fonction pour défiler vers une section spécifique
+function scrollToSection(index) {
+  if (isScrolling) return;
+  
+  isScrolling = true;
+  const sections = document.querySelectorAll('.step');
+  
+  if (index >= 0 && index < sections.length) {
+    sections[index].scrollIntoView({ behavior: 'smooth' });
+  }
+  
+  setTimeout(() => {
+    isScrolling = false;
+  }, scrollCooldown);
+}
+
 // Gestionnaire de défilement depuis le footer vers la dernière section
 function handleFooterScroll(e) {
   const footer = document.querySelector('footer');
@@ -214,32 +148,8 @@ function resetAccumulatedDelta() {
   }, { passive: true });
 }
 
-// Fonction de débogage pour afficher la section active
-function debugActiveSection() {
-  setInterval(() => {
-    const activeSection = document.querySelector('.step.is-active');
-    if (activeSection) {
-      console.log('Section active:', activeSection.id);
-    } else {
-      console.log('Aucune section active');
-    }
-  }, 2000);
-}
-
-// Initialisation
-function init() {
-  // Mettre en place les dimensions
-  handleResize();
-  
-  // Configurer scrollama
-  scroller
-    .setup({
-      step: "#scrolly .step",
-      offset: 0.5,
-      debug: false
-    })
-    .onStepEnter(handleStepEnter);
-  
+// Initialisation du snap scrolling
+export function initSnapScroll() {
   // Ajouter l'écouteur d'événements pour le défilement
   window.addEventListener('wheel', handleWheelEvent, { passive: false });
   
@@ -248,14 +158,6 @@ function init() {
   
   // Configurer la réinitialisation du delta accumulé
   resetAccumulatedDelta();
-  
-  // Ajouter l'écouteur de redimensionnement
-  window.addEventListener('resize', handleResize);
-  
-  // Débogage si nécessaire
-  // debugActiveSection();
 }
 
-// Lancer l'initialisation
-init();
-initSnapScroll();
+export default initSnapScroll;
