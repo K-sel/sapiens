@@ -149,20 +149,20 @@ figcaption {
 #revolution_click_arrow1 {
   position: absolute;
   left: 45%;
-  top: 48%;
+  top: 27%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }
 
 #revolution_click_arrow2 {
   position: absolute;
   left: 83%;
-  top: 44%;
+  top: 3%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }
 
 #revolution_click_arrow3 {
   position: absolute;
   left: 80%;
-  top: 53%;
+  top: 56%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }

@@ -20,6 +20,6 @@
   #end_click_arrow {
     position: absolute;
     left: 50%;
-    top: 86%;
+    top: 13%;
     animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
   }
