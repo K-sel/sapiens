@@ -1,3 +1,5 @@
+import { cognitiveHtml, agricoleHtml, scientifiqueHtml } from './popup_html.js';
+
 document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('sectionChanged', handleSectionChanged);
 });
@@ -6,7 +8,7 @@ function handleSectionChanged(event) {
     const { id, index } = event.detail;
 
     if (id === 'revolution-section') {
-        initCognitiveInteractions();
+        initRevolutionInteractions();
     }
 }
 
@@ -93,30 +95,63 @@ function preventScrollKeydown(e) {
     }
 }
 
-function initCognitiveInteractions() {
+function initRevolutionInteractions() {
     const revSection = document.querySelector("#revolution-section");
     const cognitiveIcon = document.querySelector("#icon-cognitive");
+    const agricoleIcon = document.querySelector("#icon-agricole");
+    const scientifiqueIcon = document.querySelector("#icon-scientifique");
 
-    if (!revSection || !cognitiveIcon) {
-        console.error("Éléments requis non trouvés :",
-            !revSection ? "#revolution-section manquant" : "",
-            !cognitiveIcon ? "#icon-cognitive manquant" : "");
+    if (!revSection) {
+        console.error("Élément #revolution-section non trouvé");
         return;
     }
 
-    cognitiveIcon.addEventListener("click", function () {
-        disableScroll();
-        revSection.innerHTML = popupHtml;
+    // Interaction pour l'icône cognitive
+    if (cognitiveIcon) {
+        cognitiveIcon.addEventListener("click", function () {
+            disableScroll();
+            revSection.innerHTML = cognitiveHtml;
+            setupBackArrow(revSection);
+        });
+    } else {
+        console.error("Élément #icon-cognitive manquant");
+    }
 
-        const backArrow = document.querySelector(".popup-arrow");
-        if (backArrow) {
-            backArrow.addEventListener("click", function () {
-                revSection.innerHTML = defaultHTML;
-                enableScroll();
-                initCognitiveInteractions();
-            });
-        }
-    });
+    // Interaction pour l'icône agricole
+    if (agricoleIcon) {
+        agricoleIcon.addEventListener("click", function () {
+            disableScroll();
+            revSection.innerHTML = agricoleHtml;
+            setupBackArrow(revSection);
+        });
+    } else {
+        console.error("Élément #icon-agricole manquant");
+    }
+
+    // Interaction pour l'icône scientifique
+    if (scientifiqueIcon) {
+        scientifiqueIcon.addEventListener("click", function () {
+            disableScroll();
+            revSection.innerHTML = scientifiqueHtml;
+            setupBackArrow(revSection);
+        });
+    } else {
+        console.error("Élément #icon-scientifique manquant");
+    }
+}
+
+function setupBackArrow(revSection) {
+    // Configuration de la flèche de retour pour tous les popups
+    const backArrow = document.querySelector(".popup-arrow");
+    if (backArrow) {
+        backArrow.addEventListener("click", function () {
+            revSection.innerHTML = defaultHTML;
+            enableScroll();
+            initRevolutionInteractions();
+        });
+    } else {
+        console.error("Élément .popup-arrow manquant dans le popup");
+    }
 }
 
 const defaultHTML = `
@@ -203,33 +238,3 @@ const defaultHTML = `
           </div>
         </div>
       </div>`;
-
-const popupHtml = `
-          <section id="popup-cognitive">
-        <div class="text">
-          <div class="section-description">
-            <h2 class="section-title">
-              Les avantages de la révolution cognitive
-            </h2>
-            <p class="section-text">
-              L'émergence des facultés mentales supérieures telles que
-              l'imagination a catapulté l'être humain à la tête du règne animal,
-              sa nouvelle aptitude à conceptualiser l'abstrait lui conférant une
-              suprématie quasi mystique sur l'ensemble du monde vivant.
-            </p>
-            <img
-              alt="Flèche pour revenir en arrière"
-              src="/src/assets/images/popup_arrow.svg"
-              class="popup-arrow"
-            />
-          </div>
-        </div>
-        <div id="cognitive-container">
-          <img
-            alt="Graphique illustrant la révolution cognitive"
-            src="/src/assets/images/popup-cognitive.png"
-            id="cognitive-image"
-          />
-        </div>
-      </section>
-      `;
