@@ -3,6 +3,7 @@ import scrollama from 'scrollama';
 import { illustrations } from './assets/illustrations';
 import initSnapScroll from './snapscroll.js';
 import { initExpansionMap } from './expension-map.js';
+import { initEconomieGraph } from './economie-graph.js';
 
 const scrolly = d3.select("#scrolly");
 const article = scrolly.select("article");
@@ -70,8 +71,7 @@ function illustrationDisplay(response) {
   response.element.insertAdjacentHTML("beforeend", illustrations[response.index + 1]);
 }
 
-// Fonction à ajouter dans votre fichier scrollama.js après la fonction illustrationDisplay
-// Puis, après la fonction illustrationDisplay, ajoutez ceci :
+// Puis, modifiez la fonction initializeMapIfNeeded comme suit :
 function initializeMapIfNeeded(response) {
   // Si nous sommes dans la section d'expansion (index 2 car base 0)
   if (response.index === 2) {
@@ -88,6 +88,17 @@ function initializeMapIfNeeded(response) {
         } else {
           initExpansionMap();
         }
+      }
+    }, 100); // Court délai pour s'assurer que le DOM est mis à jour
+  }
+
+  // Si nous sommes dans la section économie (index 4 car base 0)
+  if (response.index === 4) {
+    // On attend que le DOM soit mis à jour avec l'illustration
+    setTimeout(() => {
+      // Vérifier que le conteneur existe
+      if (document.getElementById('economie-graph-container')) {
+        initEconomieGraph();
       }
     }, 100); // Court délai pour s'assurer que le DOM est mis à jour
   }
