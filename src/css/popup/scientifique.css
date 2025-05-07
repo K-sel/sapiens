@@ -1,5 +1,5 @@
 /* CSS pour la popup agricole ------------------------------------------------------------- */
-#scientifique-cognitive {
+#popup-scientifique {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
