@@ -2,6 +2,7 @@ import * as d3 from 'd3';
 import scrollama from 'scrollama';
 import { illustrations } from './assets/illustrations';
 import initSnapScroll from './snapscroll.js';
+import { initExpansionMap } from './expension-map.js';
 
 const scrolly = d3.select("#scrolly");
 const article = scrolly.select("article");
@@ -22,6 +23,7 @@ function handleStepEnter(response) {
   console.log(response);
   illustrationDisplay(response);
   displayText(response);
+  initializeMapIfNeeded(response);
 
   step.classed("is-active", function (d, i) {
     return i === response.index;
@@ -66,6 +68,29 @@ function illustrationDisplay(response) {
   });
 
   response.element.insertAdjacentHTML("beforeend", illustrations[response.index + 1]);
+}
+
+// Fonction à ajouter dans votre fichier scrollama.js après la fonction illustrationDisplay
+// Puis, après la fonction illustrationDisplay, ajoutez ceci :
+function initializeMapIfNeeded(response) {
+  // Si nous sommes dans la section d'expansion (index 2 car base 0)
+  if (response.index === 2) {
+    // On attend que le DOM soit mis à jour avec l'illustration
+    setTimeout(() => {
+      // Vérifier que le conteneur existe
+      if (document.getElementById('expansion-map-container')) {
+        // Charger TopoJSON si nécessaire
+        if (typeof topojson === 'undefined') {
+          const script = document.createElement('script');
+          script.src = 'https://cdn.jsdelivr.net/npm/topojson@3/dist/topojson.min.js';
+          script.onload = initExpansionMap;
+          document.head.appendChild(script);
+        } else {
+          initExpansionMap();
+        }
+      }
+    }, 100); // Court délai pour s'assurer que le DOM est mis à jour
+  }
 }
 
 function displayText(response) {

@@ -27,6 +27,8 @@
     <!-- Scrollama CSS -->
     <link rel="stylesheet" href="src/css/scrollama.css"/>
 
+    <script src="https://cdn.jsdelivr.net/npm/topojson@3/dist/topojson.min.js"></script>
+
     <title>Sapiens</title>
   </head>
   <body>
@@ -108,7 +110,7 @@
         <section id="expension-section" data-step="3" class="step">
           <div class="text">
             <div class="section-description">
-              <h2 class="section-title">Le Déluge, l’expension de Homo Sapiens</h2>
+              <h2 class="section-title">Le Déluge, l'expension de Homo Sapiens</h2>
               <p class="section-text" style="display: none;">
                 La grande odyssée migratoire d'Homo sapiens représente l'une des
                 plus extraordinaires conquêtes géographiques de l'histoire
@@ -136,6 +138,10 @@
                 biosphère terrestre.
               </p>
             </div>
+          </div>
+          <div id="expension-illustration">
+            <div id="expansion-map-container"></div>
+            <div id="map-tooltip"></div>
           </div>
         </section>
         <section id="revolution-section" data-step="4" class="step">

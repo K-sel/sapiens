@@ -14,6 +14,66 @@
 #expension-illustration {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   justify-content: space-between;
+}
+
+/* Styles de base pour le conteneur de carte */
+#expansion-map-container {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFAEB;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* Styles pour la carte SVG */
+#expansion-map-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles pour l'info-bulle qui apparaît au survol */
+#map-tooltip {
+  position: absolute;
+  background-color: rgba(255, 250, 235, 0.9);
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 0.9rem;
+  max-width: 200px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles pour les points de migration */
+.migration-point {
+  cursor: pointer;
+  transition: r 0.2s ease;
+}
+
+/* Styles pour les chemins de migration */
+.migration-paths path {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Styles pour les étiquettes de lieux */
+.migration-labels text {
+  font-family: "EB Garamond", serif;
+  pointer-events: none;
+  text-shadow: 
+    0px 0px 2px #ffbf00,
+    0px 0px 3px #0043fc,
+    0px 0px 4px #ff0000;
+}
+
+/* Message d'erreur si la carte ne se charge pas */
+.map-error {
+  padding: 20px;
+  text-align: center;
+  color: #ff3333;
 }

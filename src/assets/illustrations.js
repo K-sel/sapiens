@@ -1,3 +1,4 @@
+// Mise à jour de l'objet illustrations dans src/assets/illustrations.js
 export const illustrations = {
   1: `
         <img
@@ -36,11 +37,8 @@ export const illustrations = {
     `,
   3: `
       <div id="expension-illustration">
-        <img
-          alt="maps d'illustration de l'expension"
-          src="/src/assets/images/map.png"
-          id="expension-map"
-        />
+        <div id="expansion-map-container"></div>
+        <div id="map-tooltip"></div>
       </div>
     `,
   4: `
