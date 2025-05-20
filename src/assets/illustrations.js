@@ -107,11 +107,7 @@ export const illustrations = {
     `,
   5: `
       <div id="economie-illustration">
-        <img
-          alt="Graphique d'illustration de la révolution économique"
-          src="/src/assets/images/graph_economie.svg"
-          id="economie-graph"
-        />
+        <div id="economie-graph-container"></div>
       </div>
     `,
   6: `

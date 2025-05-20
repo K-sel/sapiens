@@ -1,20 +1,50 @@
 /* CSS Section economie ------------------------------------------------------------- */
 #economie-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    gap: 5vw;
-    max-width: 1400px;
-    margin: 0 auto;
-    height: 90vh;
-  }
-  
-  #economie-illustration {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    justify-content: space-between;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#economie-illustration {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-between;
+}
+
+/* Styles pour le graphique économique */
+#economie-graph-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Style pour les axes */
+.x-axis path,
+.y-axis path,
+.x-axis line,
+.y-axis line {
+  stroke: #333333;
+}
+
+.x-axis text,
+.y-axis text {
+  font-family: "EB Garamond", serif;
+  font-size: 14px;
+}
+
+/* Style pour les points interactifs */
+.data-point {
+  transition: r 0.2s ease;
+}
+
+/* Style pour les annotations */
+.annotation text {
+  font-style: italic;
+}
