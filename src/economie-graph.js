@@ -38,26 +38,26 @@ const economieData = {
       "id": "economie-stagnante",
       "texte": "Économie stagnante",
       "position": {
-        "x": 1300,
-        "y": 200
+        "x": 1400,
+        "y": 30
       },
       "alignement": "milieu-bas",
       "fleche": {
-        "depart": {"x": 1300, "y": 200},
-        "arrivee": {"x": 1350, "y": 250}
+        "depart": {"x": 1400, "y": 50},
+        "arrivee": {"x": 1400, "y": 130}
       }
     },
     {
       "id": "revolution-industrielle",
       "texte": "Révolution industrielle & Démocratisation du crédit",
       "position": {
-        "x": 1800,
+        "x": 1680,
         "y": 1000
       },
       "alignement": "droite-milieu",
       "fleche": {
-        "depart": {"x": 1800, "y": 1000},
-        "arrivee": {"x": 1800, "y": 500}
+        "depart": {"x": 1690, "y": 1000},
+        "arrivee": {"x": 1780, "y": 550}
       }
     },
     {
@@ -69,8 +69,8 @@ const economieData = {
       },
       "alignement": "droite-milieu",
       "fleche": {
-        "depart": {"x": 1950, "y": 30000},
-        "arrivee": {"x": 1900, "y": 20000}
+        "depart": {"x": 1900, "y": 20000},
+        "arrivee": {"x": 1850, "y": 3700}
       }
     }
   ],
