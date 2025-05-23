@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   width: 60%;
-  justify-content: space-between;;
+  justify-content: space-between;
 }
 
 #cerveau-svg-container {
@@ -26,12 +26,24 @@
   justify-content: space-between;
   flex-grow: 1;
   padding-bottom: 2rem;
+  gap: 2rem;
 }
 
-#cerveau-svg-container img {
+/* Conteneur pour chaque cerveau et ses labels */
+.cerveau-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+/* Styles pour les images de cerveaux */
+.cerveau-item img {
   max-height: 300px;
   object-fit: contain;
   width: auto;
+  margin-bottom: 15px;
 }
 
 #cerveau1 {
@@ -46,9 +58,123 @@
   height: 240px;
 }
 
+/* Conteneur des labels */
+.cerveau-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: "EB Garamond", serif;
+}
+
+/* Volume du cerveau (600 cm³, etc.) */
+.cerveau-volume {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Conteneur des informations sur l'espèce */
+.cerveau-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.3;
+}
+
+/* Nom de l'espèce */
+.cerveau-espece {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+/* Période */
+.cerveau-periode {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Flèche de clic */
 #cerveau_click_arrow {
   position: absolute;
   left: 38%;
   top: 37%;
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
+}
+
+/* Responsive pour tablettes */
+@media (max-width: 1024px) {
+  #cerveau-svg-container {
+    gap: 1rem;
+  }
+  
+  .cerveau-volume {
+    font-size: 1.2rem;
+  }
+  
+  .cerveau-espece {
+    font-size: 0.9rem;
+  }
+  
+  .cerveau-periode {
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  #cerveau-section {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  #cerveau-illustration {
+    width: 100%;
+  }
+  
+  #cerveau-svg-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .cerveau-item {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .cerveau-item img {
+    max-height: 200px;
+  }
+  
+  #cerveau1 {
+    height: 120px;
+  }
+  
+  #cerveau2 {
+    height: 150px;
+  }
+  
+  #cerveau3 {
+    height: 180px;
+  }
+  
+  .cerveau-volume {
+    font-size: 1.3rem;
+  }
+  
+  .cerveau-espece {
+    font-size: 1rem;
+  }
+  
+  .cerveau-periode {
+    font-size: 0.9rem;
+  }
 }

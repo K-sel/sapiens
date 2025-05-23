@@ -22,18 +22,42 @@ export const illustrations = {
       </div>
     `,
   2: `
-        <img
-        src="/src/assets/images/click_arrow_left.svg"
-        alt="Click here Arrow"
-        id="cerveau_click_arrow"
-      />
       <div id="cerveau-illustration">
-        <div id="cerveau-svg-container">
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau1" />
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau2" />
-          <img src="/src/assets/images/cerveau.png" alt="Homo" id="cerveau3" />
+  <div id="cerveau-svg-container">
+    <div class="cerveau-item">
+      <img src="/src/assets/images/cerveau.png" alt="Cerveau Homo habilis" id="cerveau1" />
+      <div class="cerveau-labels">
+        <div class="cerveau-volume">600 cm³</div>
+        <div class="cerveau-info">
+          <div class="cerveau-espece">Homo habilis,</div>
+          <div class="cerveau-periode">2,4 millions d'années</div>
         </div>
       </div>
+    </div>
+    
+    <div class="cerveau-item">
+      <img src="/src/assets/images/cerveau.png" alt="Cerveau Homo sapiens" id="cerveau2" />
+      <div class="cerveau-labels">
+        <div class="cerveau-volume">1400 cm³</div>
+        <div class="cerveau-info">
+          <div class="cerveau-espece">Homo sapiens,</div>
+          <div class="cerveau-periode">150'000 ans - Actuel</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cerveau-item">
+      <img src="/src/assets/images/cerveau.png" alt="Cerveau Homo neanderthalensis" id="cerveau3" />
+      <div class="cerveau-labels">
+        <div class="cerveau-volume">1600 cm³</div>
+        <div class="cerveau-info">
+          <div class="cerveau-espece">Homo neanderthalensis,</div>
+          <div class="cerveau-periode">400 000 ans</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     `,
   3: `
       <div id="expension-illustration">
