@@ -158,7 +158,6 @@ function showHomoDescription(index) {
     left: 50%;
     transform: translateX(-50%);
     background: linear-gradient(135deg, rgba(255, 250, 235, 0.98), rgba(255, 245, 220, 0.95));
-    border: 2px solid #333;
     border-radius: 12px;
     padding: 20px;
     max-width: 420px;
@@ -216,7 +215,7 @@ function addDescriptionStyles() {
       position: absolute;
       top: -10px;
       right: -10px;
-      background: #ff3333;
+      background: red;
       color: white;
       border: none;
       border-radius: 50%;
@@ -242,7 +241,6 @@ function addDescriptionStyles() {
       font-size: 1.4rem;
       font-weight: 600;
       color: #2c3e50;
-      border-bottom: 2px solid #3498db;
       padding-bottom: 8px;
     }
     

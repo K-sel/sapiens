@@ -26,7 +26,7 @@
   justify-content: space-between;
   flex-grow: 1;
   padding-bottom: 2rem;
-  position: relative; /* ← Ajouter cette ligne */
+  position: relative; 
 }
 
 #homo-svg-container img {
@@ -68,20 +68,16 @@
   animation: bounce 2s 2; /* Animation de rebond qui s'execute 2 fois */
 }
 
-/* Styles pour les interactions homo - à ajouter dans homo-section.css */
 
-/* Styles de base pour l'interactivité des homos */
 [id^="homo"]:not(#homo-section):not([id*="illustration"]):not([id*="container"]):not([id*="graph"]):not([id*="arrow"]) {
   transition: opacity 0.3s ease, transform 0.2s ease, filter 0.3s ease;
   cursor: pointer;
 }
 
-/* Effet hover pour les homos non sélectionnés */
 [id^="homo"]:not(#homo-section):not([id*="illustration"]):not([id*="container"]):not([id*="graph"]):not([id*="arrow"]):hover {
   transform: scale(1.05);
 }
 
-/* Conteneur positionné relativement pour les infos */
 #homo-svg-container {
   position: relative;
 }
